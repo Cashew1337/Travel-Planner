@@ -1,20 +1,98 @@
 [
     {
-      "name": "Paris",
-      "country": "France",
-      "description": "The City of Light, the city of love",
-      "imageUrl": "Travel-Planner/seeds/assets/earth-DXuxHw3S5ak-unsplash.jpg"
+        "name": "Paris",
+        "country": "France",
+        "description": "The City of Light, the city of love",
+        "imageUrl": "./Travel-Planner/seeds/assets/earth-DXuxHw3S5ak-unsplash.jpg"
     },
     {
-      "name": "Tokyo",
-      "country": "Japan",
-      "description": "The world's most populous metropolis",
-      "imageUrl": "Travel-Planner/seeds/assets/yoav-aziz-tKCd-IWc4gI-unsplash.jpg"
+        "name": "Tokyo",
+        "country": "Japan",
+        "description": "The world's most populous metropolis",
+        "imageUrl": "./Travel-Planner/seeds/assets/yoav-aziz-tKCd-IWc4gI-unsplash.jpg"
     },
     {
-      "name": "Sydney",
-      "country": "Australia",
-      "description": "The largest city in Australia",
-      "imageUrl": "Travel-Planner/seeds/assets/laura-cros-KtJy7cZV5OQ-unsplash.jpg"
+        "name": "Sydney",
+        "country": "Australia",
+        "description": "The largest city in Australia",
+        "imageUrl": "./Travel-Planner/seeds/assets/laura-cros-KtJy7cZV5OQ-unsplash.jpg"
+    },
+    {
+        "name": "Rio de Janeiro",
+        "country": "Brazil",
+        "description": "A city with stunning beaches, and a vibrant culture",
+        "imageUrl": "./Travel-Planner/seeds/assets/agustin-diaz-gargiulo-GTLJklnjn-E-unsplash.jpg"
+    },
+    {
+        "name": "Cape Town",
+        "country": "South Africa",
+        "description": "A coastal city with breathtaking scenery, diverse wildlife, and rich history",
+        "imageUrl": "./Travel-Planner/seeds/assets/finding-dan-dan-grinwis-IAytV8T2Qvc-unsplash.jpg"
+    },
+    {
+        "name": "Bali",
+        "country": "Indonesia",
+        "description": "A tropical paradise with beautiful beaches, lush forests, and ancient temples",
+        "imageUrl": "./Travel-Planner/seeds/assets/aron-visuals-1kdIG_258bU-unsplash.jpg"
+    },
+    {
+        "name": "New York City",
+        "country": "United States",
+        "description": "The city that never sleeps, with iconic landmarks, world-class museums, and a vibrant food scene",
+        "imageUrl": "./Travel-Planner/seeds/assets/triston-dunn-rfj_wOYQkus-unsplash.jpg"
+    },
+    {
+        "name": "Amsterdam",
+        "country": "Netherlands",
+        "description": "A charming city with beautiful canals, historic architecture, and a laid-back culture",
+        "imageUrl": "./Travel-Planner/seeds/assets/matheo-jbt-3vQXi_i0P4w-unsplash.jpg"
+    },
+    {
+        "name": "Barcelona",
+        "country": "Spain",
+        "description": "A vibrant city with stunning architecture, beautiful beaches, and a rich history",
+        "imageUrl": "./Travel-Planner/seeds/assets/theodor-vasile-LSscVPEyQpI-unsplash.jpg"
+    },
+    {
+        "name": "Bangkok",
+        "country": "Thailand",
+        "description": "A bustling city with an amazing street-food culture",
+        "imageUrl": "./Travel-Planner/seeds/assets/florian-wehde--y3sidWvDxg-unsplash.jpg"
+    },
+    {
+        "name": "Santorini",
+        "country": "Greece",
+        "description": "A stunning island with picturesque white-washed buildings, beautiful beaches, and a romantic atmosphere",
+        "imageUrl": "./Travel-Planner/seeds/assets/tania-mousinho-vF0l0bqLRKY-unsplash.jpg"
+    },
+    {
+        "name": "Dubai",
+        "country": "United Arab Emirates",
+        "description": "A modern metropolis with iconic skyscrapers, luxurious shopping, and a vibrant nightlife",
+        "imageUrl": "./Travel-Planner/seeds/assets/david-rodrigo-Fr6zexbmjmc-unsplash.jpg"
+    },
+    {
+        "name": "Havana",
+        "country": "Cuba",
+        "description": "A city with a rich history, vibrant culture, and colorful buildings",
+        "imageUrl": "./Travel-Planner/seeds/assets/spencer-everett-4MTSE39Oqro-unsplash.jpg"
+    },
+    {
+        "name": "Marrakech",
+        "country": "Morocco",
+        "description": "A vibrant city with beautiful architecture, bustling markets, and a rich history",
+        "imageUrl": "./Travel-Planner/seeds/assets/zakariae-daoui-Dql2_LN5sRg-unsplash.jpg"
+    },
+    {
+        "name": "Agra",
+        "country": "India",
+        "description": "Home to the iconic Taj Mahal, one of the world's most beautiful monuments",
+        "imageUrl": "./Travel-Planner/seeds/assets/sylwia-bartyzel-eU4pipU_8HA-unsplash.jpg"
+    },
+    {
+        "name": "Reykjavik",
+        "country": "Iceland",
+        "description": "A charming city with beautiful scenery, hot springs, and a unique culture",
+        "imageUrl": "./Travel-Planner/seeds/assets/frank-denney-vCqclUnCg_8-unsplash.jpg"
     }
-  ]
+]
