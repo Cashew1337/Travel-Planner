@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Paris Trip",
+      "startDate": "2023-07-01",
+      "endDate": "2023-07-07",
+      "description": "A week-long trip to Paris",
+      "userId": 1,
+      "destinationId": 1
+    },
+    {
+      "name": "Tokyo Trip",
+      "startDate": "2023-08-15",
+      "endDate": "2023-08-25",
+      "description": "A 10-day trip to Tokyo",
+      "userId": 2,
+      "destinationId": 2
+    },
+    {
+      "name": "Sydney Trip",
+      "startDate": "2023-09-20",
+      "endDate": "2023-09-26",
+      "description": "A week-long trip to Sydney",
+      "userId": 3,
+      "destinationId": 3
+    }
+  ]
+  
