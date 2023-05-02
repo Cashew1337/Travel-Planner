@@ -1,0 +1,20 @@
+[
+    {
+      "name": "Paris",
+      "country": "France",
+      "description": "The City of Light, the city of love",
+      "imageUrl": "Travel-Planner/seeds/assets/earth-DXuxHw3S5ak-unsplash.jpg"
+    },
+    {
+      "name": "Tokyo",
+      "country": "Japan",
+      "description": "The world's most populous metropolis",
+      "imageUrl": "Travel-Planner/seeds/assets/yoav-aziz-tKCd-IWc4gI-unsplash.jpg"
+    },
+    {
+      "name": "Sydney",
+      "country": "Australia",
+      "description": "The largest city in Australia",
+      "imageUrl": "Travel-Planner/seeds/assets/laura-cros-KtJy7cZV5OQ-unsplash.jpg"
+    }
+  ]
