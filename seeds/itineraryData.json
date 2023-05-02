@@ -1,0 +1,52 @@
+[
+    {
+      "name": "Day 1 - Arrival and Check-in",
+      "date": "2023-07-01",
+      "time": "15:00",
+      "location": "Hotel ABC",
+      "details": "Check-in to your hotel and relax after your journey."
+    },
+    {
+      "name": "Day 2 - Explore the City",
+      "date": "2023-07-02",
+      "time": "10:00",
+      "location": "Eiffel Tower",
+      "details": "Visit the iconic Eiffel Tower and enjoy the stunning view of Paris from the top."
+    },
+    {
+      "name": "Day 3 - Museum Day",
+      "date": "2023-07-03",
+      "time": "11:00",
+      "location": "Louvre Museum",
+      "details": "Spend the day exploring the world-famous Louvre Museum and admire its incredible art collections."
+    },
+    {
+      "name": "Day 4 - River Seine Cruise",
+      "date": "2023-07-04",
+      "time": "16:00",
+      "location": "River Seine",
+      "details": "Take a relaxing boat cruise along the River Seine and enjoy the breathtaking views of the city."
+    },
+    {
+      "name": "Day 5 - Versailles Palace",
+      "date": "2023-07-05",
+      "time": "09:00",
+      "location": "Versailles Palace",
+      "details": "Visit the stunning Versailles Palace and its beautiful gardens, and learn about its fascinating history."
+    },
+    {
+      "name": "Day 6 - Food Tour",
+      "date": "2023-07-06",
+      "time": "12:00",
+      "location": "Various locations",
+      "details": "Join a guided food tour and taste some of the best French cuisine in the city."
+    },
+    {
+      "name": "Day 7 - Departure",
+      "date": "2023-07-07",
+      "time": "12:00",
+      "location": "Hotel ABC",
+      "details": "Check-out from your hotel and say goodbye to the city of love and light."
+    }
+  ]
+  

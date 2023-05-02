@@ -1,27 +1,130 @@
 [
     {
-      "name": "Paris Trip",
-      "startDate": "2023-07-01",
-      "endDate": "2023-07-07",
-      "description": "A week-long trip to Paris",
-      "userId": 1,
-      "destinationId": 1
+        "name": "Paris Trip",
+        "startDate": "2023-07-01",
+        "endDate": "2023-07-07",
+        "description": "Experience the city of love and light while enjoying the best of food and culture this famed city has to offer",
+        "userId": 1,
+        "destinationId": 1
     },
     {
-      "name": "Tokyo Trip",
-      "startDate": "2023-08-15",
-      "endDate": "2023-08-25",
-      "description": "A 10-day trip to Tokyo",
-      "userId": 2,
-      "destinationId": 2
+        "name": "Tokyo Trip",
+        "startDate": "2023-08-15",
+        "endDate": "2023-08-22",
+        "description": "Experience the pulsing nightlife, haute cuisine, and electrifying street style of Tokyo",
+        "userId": 2,
+        "destinationId": 2
     },
     {
-      "name": "Sydney Trip",
-      "startDate": "2023-09-20",
-      "endDate": "2023-09-26",
-      "description": "A week-long trip to Sydney",
-      "userId": 3,
-      "destinationId": 3
+        "name": "Sydney Trip",
+        "startDate": "2023-09-20",
+        "endDate": "2023-09-26",
+        "description": "Experience the charms of Sydney: City of Celebrations",
+        "userId": 3,
+        "destinationId": 3
+    },
+    {
+        "name": "Beach Getaway in Rio de Janeiro",
+        "startDate": "2023-10-01",
+        "endDate": "2023-10-07",
+        "description": "Escape to the beaches of Rio de Janeiro and enjoy the sun, sand, and surf",
+        "userId": 1,
+        "destinationId": 4
+    },
+    {
+        "name": "Safari Adventure in South Africa",
+        "startDate": "2023-10-08",
+        "endDate": "2023-10-14",
+        "description": "Experience the thrill of a safari in the stunning South African savanna",
+        "userId": 2,
+        "destinationId": 5
+    },
+    {
+        "name": "Relaxing Retreat in Bali",
+        "startDate": "2023-10-15",
+        "endDate": "2023-10-22",
+        "description": "Unwind and recharge in the peaceful surroundings of Bali's lush forests and serene beaches",
+        "userId": 3,
+        "destinationId": 6
+    },
+    {
+        "name": "Exploring New York City",
+        "startDate": "2023-10-23",
+        "endDate": "2023-10-30",
+        "description": "Discover the iconic landmarks and hidden gems of the city that never sleeps",
+        "userId": 1,
+        "destinationId": 7
+    },
+    {
+        "name": "Cycling Tour in Amsterdam",
+        "startDate": "2023-10-31",
+        "endDate": "2023-11-07",
+        "description": "Explore the charming canals and historic architecture of Amsterdam by bike",
+        "userId": 2,
+        "destinationId": 8
+    },
+    {
+        "name": "City Break in Barcelona",
+        "startDate": "2023-11-08",
+        "endDate": "2023-11-15",
+        "description": "Experience the vibrant culture, delicious food, and stunning architecture of Barcelona",
+        "userId": 3,
+        "destinationId": 9
+    },
+    {
+        "name": "Island Adventure in Phuket",
+        "startDate": "2023-11-16",
+        "endDate": "2023-11-23",
+        "description": "Embark on an island adventure in Phuket, with its beautiful beaches and lively nightlife",
+        "userId": 1,
+        "destinationId": 10
+    },
+    {
+        "name": "Romantic Getaway in Santorini",
+        "startDate": "2023-11-24",
+        "endDate": "2023-12-01",
+        "description": "Indulge in a romantic escape to the picturesque island of Santorini, with its stunning views and relaxing atmosphere",
+        "userId": 2,
+        "destinationId": 11
+    },
+    {
+        "name": "Luxury Escape in Dubai",
+        "startDate": "2023-12-02",
+        "endDate": "2023-12-09",
+        "description": "Indulge in the luxury and opulence of Dubai, with its iconic skyscrapers and luxurious shopping",
+        "userId": 3,
+        "destinationId": 12
+    },
+    {
+        "name": "Cultural Exploration in Havana",
+        "startDate": "2023-12-10",
+        "endDate": "2023-12-17",
+        "description": "Discover the rich history and vibrant culture of Havana, with its colorful buildings and lively music",
+        "userId": 1,
+        "destinationId": 13
+    },
+    {
+        "name": "Moroccan Adventure in Marrakech",
+        "startDate": "2023-12-18",
+        "endDate": "2023-12-25",
+        "description": "Embark on an adventure in the bustling markets and beautiful architecture of Marrakech",
+        "userId": 2,
+        "destinationId": 14
+    },
+    {
+        "name": "Iconic Taj Mahal Experience in Agra",
+        "startDate": "2023-12-26",
+        "endDate": "2024-01-03",
+        "description": "Visit the iconic Taj Mahal and discover the rich history of Agra and India",
+        "userId": 3,
+        "destinationId": 15
+    },
+    {
+        "name": "Folksy Getaway to Scenic Reykjavik",
+        "startDate": "2024-01-04",
+        "endDate": "2024-01-11",
+        "description": "Enjoy the hot springs and view the stunning northern lights in this quaint Icelandic",
+        "userId": 1,
+        "destinationId": 16
     }
-  ]
-  
+]
