@@ -1,52 +1,1728 @@
 [
-    {
-      "name": "Day 1 - Arrival and Check-in",
-      "date": "2023-07-01",
-      "time": "15:00",
-      "location": "Hotel ABC",
-      "details": "Check-in to your hotel and relax after your journey."
-    },
-    {
-      "name": "Day 2 - Explore the City",
-      "date": "2023-07-02",
-      "time": "10:00",
-      "location": "Eiffel Tower",
-      "details": "Visit the iconic Eiffel Tower and enjoy the stunning view of Paris from the top."
-    },
-    {
-      "name": "Day 3 - Museum Day",
-      "date": "2023-07-03",
-      "time": "11:00",
-      "location": "Louvre Museum",
-      "details": "Spend the day exploring the world-famous Louvre Museum and admire its incredible art collections."
-    },
-    {
-      "name": "Day 4 - River Seine Cruise",
-      "date": "2023-07-04",
-      "time": "16:00",
-      "location": "River Seine",
-      "details": "Take a relaxing boat cruise along the River Seine and enjoy the breathtaking views of the city."
-    },
-    {
-      "name": "Day 5 - Versailles Palace",
-      "date": "2023-07-05",
-      "time": "09:00",
-      "location": "Versailles Palace",
-      "details": "Visit the stunning Versailles Palace and its beautiful gardens, and learn about its fascinating history."
-    },
-    {
-      "name": "Day 6 - Food Tour",
-      "date": "2023-07-06",
-      "time": "12:00",
-      "location": "Various locations",
-      "details": "Join a guided food tour and taste some of the best French cuisine in the city."
-    },
-    {
-      "name": "Day 7 - Departure",
-      "date": "2023-07-07",
-      "time": "12:00",
-      "location": "Hotel ABC",
-      "details": "Check-out from your hotel and say goodbye to the city of love and light."
-    }
-  ]
-  
+  {
+    "destinationId": 1,
+    "dates": "2023-07-01 - 2023-07-07",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-07-01",
+        "time": "15:00",
+        "location": "Hotel ABC",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Explore the City",
+        "date": "2023-07-02",
+        "time": "10:00",
+        "location": "Eiffel Tower",
+        "details": "Visit the iconic Eiffel Tower and enjoy the stunning view of Paris from the top."
+      },
+      {
+        "name": "Day 3 - Museum Day",
+        "date": "2023-07-03",
+        "time": "11:00",
+        "location": "Louvre Museum",
+        "details": "Spend the day exploring the world-famous Louvre Museum and admire its incredible art collections."
+      },
+      {
+        "name": "Day 4 - River Seine Cruise",
+        "date": "2023-07-04",
+        "time": "16:00",
+        "location": "River Seine",
+        "details": "Take a relaxing boat cruise along the River Seine and enjoy the breathtaking views of the city."
+      },
+      {
+        "name": "Day 5 - Versailles Palace",
+        "date": "2023-07-05",
+        "time": "09:00",
+        "location": "Versailles Palace",
+        "details": "Visit the stunning Versailles Palace and its beautiful gardens, and learn about its fascinating history."
+      },
+      {
+        "name": "Day 6 - Food Tour",
+        "date": "2023-07-06",
+        "time": "12:00",
+        "location": "Various locations",
+        "details": "Join a guided food tour and taste some of the best French cuisine in the city."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-07-07",
+        "time": "12:00",
+        "location": "Hotel ABC",
+        "details": "Check-out from your hotel and say goodbye to the city of love and light."
+      }
+    ]
+  },
+  {
+    "destinationId": 1,
+    "dates": "2023-07-01 - 2023-07-07",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-07-01",
+        "time": "15:00",
+        "location": "Hotel ABC",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Champs-Élysées",
+        "date": "2023-07-02",
+        "time": "10:00",
+        "location": "Champs-Élysées",
+        "details": "Take a stroll along the world-famous Champs-Élysées and admire the luxury shops, theaters, and monuments."
+      },
+      {
+        "name": "Day 3 - Montmartre",
+        "date": "2023-07-03",
+        "time": "11:00",
+        "location": "Montmartre",
+        "details": "Explore the charming neighborhood of Montmartre, visit the Sacré-Cœur Basilica, and enjoy a stunning view of the city."
+      },
+      {
+        "name": "Day 4 - Palace of Versailles",
+        "date": "2023-07-04",
+        "time": "09:00",
+        "location": "Palace of Versailles",
+        "details": "Discover the opulent Palace of Versailles and its magnificent gardens, a UNESCO World Heritage Site."
+      },
+      {
+        "name": "Day 5 - Boat Tour",
+        "date": "2023-07-05",
+        "time": "16:00",
+        "location": "Canal Saint-Martin",
+        "details": "Take a scenic boat tour along the Canal Saint-Martin and discover the picturesque and trendy neighborhoods of Paris."
+      },
+      {
+        "name": "Day 6 - Paris Catacombs",
+        "date": "2023-07-06",
+        "time": "12:00",
+        "location": "Paris Catacombs",
+        "details": "Explore the mysterious Paris Catacombs, an underground ossuary containing the remains of over six million people."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-07-07",
+        "time": "12:00",
+        "location": "Hotel ABC",
+        "details": "Check-out from your hotel and say goodbye to the city of love and light."
+      }
+    ]
+  },
+  {
+    "destinationId": 2,
+    "dates": "2023-07-01 - 2023-07-07",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-08-15",
+        "time": "15:00",
+        "location": "Hotel ABC",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Visit the Meiji Shrine",
+        "date": "2023-08-16",
+        "time": "10:00",
+        "location": "Meiji Shrine",
+        "details": "Visit the Meiji Shrine, a tranquil oasis in the heart of Tokyo that is dedicated to Emperor Meiji and his wife, Empress Shoken."
+      },
+      {
+        "name": "Day 3 - Tsukiji Fish Market and Ginza Shopping District",
+        "date": "2023-08-17",
+        "time": "11:00",
+        "location": "Tsukiji Fish Market and Ginza Shopping District",
+        "details": "Start your day early and head to the Tsukiji Fish Market to witness the bustling market and try some of the freshest sushi in town. Afterward, take a stroll in the nearby Ginza shopping district, known for its high-end boutiques and luxury department stores."
+      },
+      {
+        "name": "Day 4 - Asakusa and Senso-ji Temple",
+        "date": "2023-08-18",
+        "time": "10:00",
+        "location": "Asakusa and Senso-ji Temple",
+        "details": "Visit the historic Asakusa district and explore the vibrant streets, filled with traditional shops and restaurants. Then, head to the Senso-ji Temple, one of Tokyo's most famous and oldest temples, and soak in the rich history and cultural significance of the site."
+      },
+      {
+        "name": "Day 5 - Ueno Park and Tokyo National Museum",
+        "date": "2023-08-19",
+        "time": "09:00",
+        "location": "Ueno Park and Tokyo National Museum",
+        "details": "Visit Ueno Park, one of Tokyo's largest public parks, and explore its various museums, temples, and shrines. Make sure to stop by the Tokyo National Museum, which houses an impressive collection of Japanese art and artifacts."
+      },
+      {
+        "name": "Day 6 - Tokyo Tower and Roppongi Hills",
+        "date": "2023-08-20",
+        "time": "13:00",
+        "location": "Tokyo Tower and Roppongi Hills",
+        "details": "Take a trip up to the Tokyo Tower, one of Tokyo's most iconic landmarks, and enjoy the stunning view of the city from the observation deck. Then, head to the nearby Roppongi Hills, a modern complex with high-end shopping, dining, and entertainment options."
+      },
+      {
+        "name": "Day 7 - Shibuya and Harajuku",
+        "date": "2023-08-21",
+        "time": "11:00",
+        "location": "Shibuya and Harajuku",
+        "details": "Explore the bustling Shibuya district, famous for its iconic scramble crossing and trendy fashion boutiques. Afterward, head to Harajuku, a vibrant neighborhood known for its street fashion and colorful cafes."
+      },
+      {
+        "name": "Day 8 - Departure",
+        "date": "2023-08-22",
+        "time": "12:00",
+        "location": "Hotel ABC",
+        "details": "check-out"
+      }
+    ]
+  },
+  {
+    "destinationId": 2,
+    "dates": "2023-07-01 - 2023-07-07",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-07-01",
+        "time": "15:00",
+        "location": "Hotel ABC",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Tokyo DisneySea",
+        "date": "2023-07-02",
+        "time": "09:00",
+        "location": "Tokyo DisneySea",
+        "details": "Spend a magical day at Tokyo DisneySea, a unique Disney park with an oceanic theme."
+      },
+      {
+        "name": "Day 3 - Shinjuku Gyoen National Garden",
+        "date": "2023-07-03",
+        "time": "10:00",
+        "location": "Shinjuku Gyoen National Garden",
+        "details": "Escape the hustle and bustle of the city and enjoy the serene beauty of Shinjuku Gyoen National Garden, one of Tokyo's largest and most popular parks."
+      },
+      {
+        "name": "Day 4 - Tokyo Skytree and Sumida Aquarium",
+        "date": "2023-07-04",
+        "time": "13:00",
+        "location": "Tokyo Skytree and Sumida Aquarium",
+        "details": "Visit the Tokyo Skytree, one of the tallest towers in the world, and enjoy panoramic views of the city from the observation deck. Then, head to the nearby Sumida Aquarium to see a variety of marine life from around the world."
+      },
+      {
+        "name": "Day 5 - Akihabara and Maid Cafe",
+        "date": "2023-07-05",
+        "time": "11:00",
+        "location": "Akihabara and Maid Cafe",
+        "details": "Explore Akihabara, Tokyo's famous electronics district, and visit a Maid Cafe, a unique Japanese experience where you can be served by waitresses dressed in maid costumes."
+      },
+      {
+        "name": "Day 6 - Odaiba and Miraikan",
+        "date": "2023-07-06",
+        "time": "09:00",
+        "location": "Odaiba and Miraikan",
+        "details": "Visit Odaiba, a futuristic island with shopping malls, amusement parks, and an artificial beach. Then, head to the Miraikan, Japan's National Museum of Emerging Science and Innovation, for a hands-on learning experience."
+      },
+      {
+        "name": "Day 7 - Mount Fuji Day Trip",
+        "date": "2023-07-07",
+        "time": "07:00",
+        "location": "Mount Fuji",
+        "details": "Take a day trip to Mount Fuji, Japan's tallest mountain and a UNESCO World Heritage Site. Enjoy the stunning views and explore the surrounding area, including the Five Lakes of Fuji."
+      },
+      {
+        "name": "Day 8 - Departure",
+        "date": "2023-07-08",
+        "time": "12:00",
+        "location": "Hotel ABC",
+        "details": "Check-out and depart for the airport."
+      }
+    ]
+  },
+  {
+    "destinationId": 3,
+    "dates": "2023-09-20 - 2023-09-26",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-09-20",
+        "time": "15:00",
+        "location": "Your hotel in Sydney",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Explore the City",
+        "date": "2023-09-21",
+        "time": "10:00",
+        "location": "Sydney Opera House",
+        "details": "Take a tour of the iconic Sydney Opera House and enjoy the stunning view of the harbor from the top."
+      },
+      {
+        "name": "Day 3 - Visit the Beaches",
+        "date": "2023-09-22",
+        "time": "11:00",
+        "location": "Bondi Beach",
+        "details": "Spend the day at the world-famous Bondi Beach and enjoy the sun, sand, and surf."
+      },
+      {
+        "name": "Day 4 - Sydney Harbour Bridge Climb",
+        "date": "2023-09-23",
+        "time": "16:00",
+        "location": "Sydney Harbour Bridge",
+        "details": "Experience the thrill of climbing the Sydney Harbour Bridge and enjoy the breathtaking views of the city and the harbor."
+      },
+      {
+        "name": "Day 5 - Visit the Blue Mountains",
+        "date": "2023-09-24",
+        "time": "09:00",
+        "location": "Blue Mountains National Park",
+        "details": "Take a day trip to the beautiful Blue Mountains National Park and explore its stunning landscapes, waterfalls, and hiking trails."
+      },
+      {
+        "name": "Day 6 - Darling Harbour and Wildlife",
+        "date": "2023-09-25",
+        "time": "12:00",
+        "location": "Darling Harbour and Sydney Wildlife World",
+        "details": "Visit the vibrant Darling Harbour and its attractions, such as the Sydney Aquarium, and the nearby Sydney Wildlife World to see some of Australia's unique wildlife."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-09-26",
+        "time": "12:00",
+        "location": "Your hotel in Sydney",
+        "details": "Check-out from your hotel and say goodbye to the beautiful city of Sydney."
+      }
+    ]
+  },
+  {
+    "destinationId": 3,
+    "dates": "2023-09-20 - 2023-09-26",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-09-20",
+        "time": "14:00",
+        "location": "Your hotel in Sydney",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Explore the City",
+        "date": "2023-09-21",
+        "time": "10:00",
+        "location": "The Rocks",
+        "details": "Take a walking tour of The Rocks, one of the oldest neighborhoods in Sydney, and learn about the city's history and culture."
+      },
+      {
+        "name": "Day 3 - Visit the Beaches",
+        "date": "2023-09-22",
+        "time": "11:00",
+        "location": "Manly Beach",
+        "details": "Take a ferry to Manly Beach and spend the day relaxing on the beach or trying some water sports."
+      },
+      {
+        "name": "Day 4 - Sydney Harbour Bridge Climb",
+        "date": "2023-09-23",
+        "time": "16:00",
+        "location": "Sydney Harbour Bridge",
+        "details": "Experience the thrill of climbing the Sydney Harbour Bridge and enjoy the breathtaking views of the city and the harbor."
+      },
+      {
+        "name": "Day 5 - Visit the Art Galleries",
+        "date": "2023-09-24",
+        "time": "10:00",
+        "location": "Art Gallery of New South Wales",
+        "details": "Visit the Art Gallery of New South Wales and see a wide range of Australian and international art, from contemporary to classical."
+      },
+      {
+        "name": "Day 6 - Taronga Zoo and Sunset Cruise",
+        "date": "2023-09-25",
+        "time": "12:00",
+        "location": "Taronga Zoo and Circular Quay",
+        "details": "Visit Taronga Zoo and see a variety of animals, including kangaroos, koalas, and Tasmanian devils. In the evening, take a sunset cruise from Circular Quay and enjoy the beautiful views of the city skyline."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-09-26",
+        "time": "12:00",
+        "location": "Your hotel in Sydney",
+        "details": "Check-out from your hotel and say goodbye to the beautiful city of Sydney."
+      }
+    ]
+  },
+  {
+    "destinationId": 4,
+    "dates": "2023-10-01 - 2023-10-07",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-07-01",
+        "time": "15:00",
+        "location": "Hotel Copacabana Palace",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Christ the Redeemer and Sugarloaf Mountain",
+        "date": "2023-10-02",
+        "time": "10:00",
+        "location": "Christ the Redeemer and Sugarloaf Mountain",
+        "details": "Visit the iconic Christ the Redeemer statue and take a cable car ride to the top of Sugarloaf Mountain for stunning views of the city."
+      },
+      {
+        "name": "Day 3 - Beach Day",
+        "date": "2023-10-03",
+        "time": "11:00",
+        "location": "Ipanema Beach",
+        "details": "Spend the day relaxing on the beautiful Ipanema Beach and enjoying the sun and surf."
+      },
+      {
+        "name": "Day 4 - Tijuca Forest and Botanical Garden",
+        "date": "2023-10-04",
+        "time": "16:00",
+        "location": "Tijuca Forest and Botanical Garden",
+        "details": "Explore the lush Tijuca Forest and visit the Botanical Garden to see a variety of exotic plants and flowers."
+      },
+      {
+        "name": "Day 5 - Historic Rio",
+        "date": "2023-10-05",
+        "time": "09:00",
+        "location": "Santa Teresa and Lapa",
+        "details": "Take a tour of the historic neighborhoods of Santa Teresa and Lapa to see the colonial architecture and visit the famous Selaron Steps."
+      },
+      {
+        "name": "Day 6 - Samba Show",
+        "date": "2023-10-06",
+        "time": "20:00",
+        "location": "Plataforma Show",
+        "details": "Experience the vibrant culture of Brazil with a traditional samba show at the Plataforma Show."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-10-07",
+        "time": "12:00",
+        "location": "Hotel Copacabana Palace",
+        "details": "Check-out from your hotel and say goodbye to the beautiful city of Rio de Janeiro."
+      }
+    ]
+  },
+  {
+    "destinationId": 4,
+    "dates": "2023-10-01 - 2023-10-07",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-10-01",
+        "time": "15:00",
+        "location": "Hotel Copacabana Palace",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Christ the Redeemer and Tijuca Forest",
+        "date": "2023-10-02",
+        "time": "09:00",
+        "location": "Christ the Redeemer and Tijuca Forest",
+        "details": "Visit the iconic Christ the Redeemer statue and explore the lush Tijuca Forest, home to a variety of wildlife and waterfalls."
+      },
+      {
+        "name": "Day 3 - Beach Day",
+        "date": "2023-10-03",
+        "time": "11:00",
+        "location": "Copacabana Beach",
+        "details": "Spend the day relaxing on the beautiful Copacabana Beach and enjoying the sun and surf."
+      },
+      {
+        "name": "Day 4 - Botanical Garden and Santa Teresa",
+        "date": "2023-10-04",
+        "time": "16:00",
+        "location": "Botanical Garden and Santa Teresa",
+        "details": "Visit the Botanical Garden to see a variety of exotic plants and flowers, then head to the historic neighborhood of Santa Teresa to see the colonial architecture and visit the famous Selaron Steps."
+      },
+      {
+        "name": "Day 5 - Rio's Street Art Scene",
+        "date": "2023-10-05",
+        "time": "10:00",
+        "location": "Various locations",
+        "details": "Take a tour of Rio's vibrant street art scene and see the work of some of Brazil's most talented artists."
+      },
+      {
+        "name": "Day 6 - Sunset at Sugarloaf Mountain",
+        "date": "2023-10-06",
+        "time": "17:00",
+        "location": "Sugarloaf Mountain",
+        "details": "Take a cable car ride to the top of Sugarloaf Mountain and watch the sunset over the city for a breathtaking view."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-10-07",
+        "time": "12:00",
+        "location": "Hotel Copacabana Palace",
+        "details": "Check-out from your hotel and say goodbye to the beautiful city of Rio de Janeiro."
+      }
+    ]
+  },
+  {
+    "destinationId": 5,
+    "dates": "2023-10-08- 2023-10-14",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-10-08",
+        "time": "15:00",
+        "location": "Hotel ABC",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Table Mountain",
+        "date": "2023-10-09",
+        "time": "10:00",
+        "location": "Table Mountain",
+        "details": "Take a cable car to the top of Table Mountain and enjoy the stunning panoramic views of the city."
+      },
+      {
+        "name": "Day 3 - Cape of Good Hope",
+        "date": "2023-10-10",
+        "time": "11:00",
+        "location": "Cape of Good Hope",
+        "details": "Visit the southernmost point of the Cape Peninsula and take a hike to see the lighthouse and breathtaking views of the Atlantic and Indian Oceans."
+      },
+      {
+        "name": "Day 4 - Robben Island",
+        "date": "2023-10-11",
+        "time": "13:00",
+        "location": "Robben Island",
+        "details": "Take a ferry to Robben Island and learn about the history of South Africa through the eyes of Nelson Mandela and other political prisoners who were imprisoned here."
+      },
+      {
+        "name": "Day 5 - Kirstenbosch Botanical Gardens",
+        "date": "2023-10-12",
+        "time": "09:00",
+        "location": "Kirstenbosch Botanical Gardens",
+        "details": "Spend the day exploring the beautiful botanical gardens and enjoy a picnic lunch with stunning views of Table Mountain."
+      },
+      {
+        "name": "Day 6 - Winelands",
+        "date": "2023-10-13",
+        "time": "12:00",
+        "location": "Stellenbosch",
+        "details": "Take a tour of the winelands and visit some of the best vineyards in the region. Enjoy wine tastings and a gourmet lunch."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-10-14",
+        "time": "12:00",
+        "location": "Hotel ABC",
+        "details": "Check-out from your hotel and say goodbye to Cape Town, the Mother City of South Africa."
+      }
+    ]
+  },
+  {
+    "destinationId": 6,
+    "dates": "2023-10-15 - 2023-10-22",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-10-15",
+        "time": "14:00",
+        "location": "Hotel ABC",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Ubud Rice Fields and Temples",
+        "date": "2023-10-16",
+        "time": "09:00",
+        "location": "Ubud Rice Fields and Temples",
+        "details": "Explore the lush Ubud rice fields and visit ancient temples."
+      },
+      {
+        "name": "Day 3 - Water Sports at Tanjung Benoa",
+        "date": "2023-10-17",
+        "time": "11:00",
+        "location": "Tanjung Benoa Beach",
+        "details": "Enjoy a day of water sports, including parasailing, jet skiing, and banana boat rides, at Tanjung Benoa Beach."
+      },
+      {
+        "name": "Day 4 - Mount Batur Sunrise Trek",
+        "date": "2023-10-18",
+        "time": "03:00",
+        "location": "Mount Batur",
+        "details": "Take an early morning trek to the summit of Mount Batur to watch the sunrise over Bali."
+      },
+      {
+        "name": "Day 5 - Tanah Lot Temple and Sunset",
+        "date": "2023-10-19",
+        "time": "15:00",
+        "location": "Tanah Lot Temple",
+        "details": "Visit the beautiful Tanah Lot Temple and enjoy the stunning sunset views over the ocean."
+      },
+      {
+        "name": "Day 6 - Cooking Class and Spa Day",
+        "date": "2023-10-20",
+        "time": "10:00",
+        "location": "Ubud Cooking Class and Spa",
+        "details": "Learn how to cook traditional Balinese dishes at a cooking class, and relax with a spa treatment afterwards."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-10-21",
+        "time": "12:00",
+        "location": "Hotel ABC",
+        "details": "Check-out from your hotel and say goodbye to the beautiful island of Bali."
+      }
+    ]
+  },
+  {
+    "destinationId": 6,
+    "dates": "2023-10-08 - 2023-10-14",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-10-08",
+        "time": "15:00",
+        "location": "Hotel ABC",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Table Mountain",
+        "date": "2023-10-09",
+        "time": "10:00",
+        "location": "Table Mountain",
+        "details": "Take a cable car to the top of Table Mountain and enjoy the stunning panoramic views of the city."
+      },
+      {
+        "name": "Day 3 - Cape Peninsula Tour",
+        "date": "2023-10-10",
+        "time": "09:00",
+        "location": "Cape Point Nature Reserve",
+        "details": "Visit the Cape Point Nature Reserve, see the penguins at Boulders Beach, and enjoy lunch at a seaside restaurant in Simon's Town."
+      },
+      {
+        "name": "Day 4 - City Tour and District Six Museum",
+        "date": "2023-10-11",
+        "time": "10:00",
+        "location": "City Centre",
+        "details": "Take a tour of the city center, including the Company's Gardens, the Castle of Good Hope, and the District Six Museum, which tells the story of the forced removals of the apartheid era."
+      },
+      {
+        "name": "Day 5 - Wine Tasting in Constantia",
+        "date": "2023-10-12",
+        "time": "12:00",
+        "location": "Constantia Wine Route",
+        "details": "Visit the historic Constantia Wine Route, the oldest wine-producing region in the Southern Hemisphere, and enjoy tastings at some of its top vineyards."
+      },
+      {
+        "name": "Day 6 - Township Tour and Cooking Class",
+        "date": "2023-10-13",
+        "time": "09:00",
+        "location": "Langa Township",
+        "details": "Experience the vibrant culture and resilience of the townships with a walking tour of Langa and a cooking class where you'll learn to make traditional Xhosa dishes."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-10-14",
+        "time": "12:00",
+        "location": "Hotel ABC",
+        "details": "Check-out from your hotel and say goodbye to Cape Town, the Mother City of South Africa."
+      }
+    ]
+  },
+  {
+    "destinationId": 7,
+    "dates": "2023-10-23 - 2023-10-30",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-10-23",
+        "time": "15:00",
+        "location": "Hotel ABC",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Central Park and Museums",
+        "date": "2023-10-24",
+        "time": "10:00",
+        "location": "Central Park",
+        "details": "Explore Central Park and visit the Metropolitan Museum of Art and the American Museum of Natural History."
+      },
+      {
+        "name": "Day 3 - Statue of Liberty and Ellis Island",
+        "date": "2023-10-25",
+        "time": "09:00",
+        "location": "Battery Park",
+        "details": "Take a ferry to visit the Statue of Liberty and Ellis Island, and learn about the history of immigration in America."
+      },
+      {
+        "name": "Day 4 - One World Trade Center and 9/11 Memorial",
+        "date": "2023-10-26",
+        "time": "13:00",
+        "location": "One World Trade Center",
+        "details": "Visit the One World Trade Center and the 9/11 Memorial to pay respects to the victims of the September 11 attacks."
+      },
+      {
+        "name": "Day 5 - Brooklyn Bridge and Coney Island",
+        "date": "2023-10-27",
+        "time": "11:00",
+        "location": "Brooklyn Bridge",
+        "details": "Walk across the iconic Brooklyn Bridge and spend the afternoon at Coney Island, enjoying the beach and the amusement park rides."
+      },
+      {
+        "name": "Day 6 - Times Square and Broadway",
+        "date": "2023-10-28",
+        "time": "18:00",
+        "location": "Times Square",
+        "details": "Experience the excitement of Times Square at night and see a Broadway show."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-10-29",
+        "time": "12:00",
+        "location": "Hotel ABC",
+        "details": "Check-out from your hotel and say goodbye to the city that never sleeps."
+      }
+    ]
+  },
+  {
+    "destinationId": 7,
+    "dates": "2023-10-23 - 2023-10-30",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-10-23",
+        "time": "15:00",
+        "location": "Hotel ABC",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - High Line and Chelsea Market",
+        "date": "2023-10-24",
+        "time": "10:00",
+        "location": "The High Line",
+        "details": "Take a stroll on the High Line, a public park built on a historic freight rail line, and visit the nearby Chelsea Market for some food and shopping."
+      },
+      {
+        "name": "Day 3 - Empire State Building and Fifth Avenue",
+        "date": "2023-10-25",
+        "time": "09:00",
+        "location": "Empire State Building",
+        "details": "Visit the iconic Empire State Building and enjoy the stunning views of the city from the observation deck. Afterward, stroll down Fifth Avenue and do some shopping at the many high-end stores."
+      },
+      {
+        "name": "Day 4 - Rockefeller Center and Top of the Rock",
+        "date": "2023-10-26",
+        "time": "13:00",
+        "location": "Rockefeller Center",
+        "details": "Visit the Rockefeller Center and take a tour of the famous NBC Studios. Then, head to the Top of the Rock observation deck for breathtaking views of the city skyline."
+      },
+      {
+        "name": "Day 5 - Brooklyn Museum and Brooklyn Botanic Garden",
+        "date": "2023-10-27",
+        "time": "11:00",
+        "location": "Brooklyn",
+        "details": "Take a subway to Brooklyn and visit the Brooklyn Museum, which has an extensive collection of art and artifacts from around the world. Afterward, explore the nearby Brooklyn Botanic Garden, which features over 10,000 plant species."
+      },
+      {
+        "name": "Day 6 - The Bronx Zoo and Arthur Avenue",
+        "date": "2023-10-28",
+        "time": "10:00",
+        "location": "The Bronx",
+        "details": "Take a train to the Bronx and spend the day at the Bronx Zoo, one of the largest metropolitan zoos in the world. Afterward, head to Arthur Avenue, which is known as the 'real Little Italy' and has some of the best Italian food in the city."
+      },
+      {
+        "name": "Day 7 - Central Park and Broadway",
+        "date": "2023-10-29",
+        "time": "12:00",
+        "location": "Central Park",
+        "details": "Spend the morning in Central Park, one of the largest urban parks in the world, and enjoy a picnic lunch. In the evening, see a Broadway show to end your trip on a high note."
+      },
+      {
+        "name": "Day 8 - Departure",
+        "date": "2023-10-30",
+        "time": "12:00",
+        "location": "Hotel ABC",
+        "details": "Check-out from your hotel and say goodbye to the city that never sleeps."
+      }
+    ]
+  },
+  {
+    "destinationId": 8,
+    "dates": "2023-10-31 - 2023-11-06",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-10-31",
+        "time": "15:00",
+        "location": "Hotel XYZ",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Explore the Canals",
+        "date": "2023-11-01",
+        "time": "10:00",
+        "location": "Various Locations",
+        "details": "Take a canal tour to see the beautiful architecture and historic landmarks of Amsterdam."
+      },
+      {
+        "name": "Day 3 - Visit the Museums",
+        "date": "2023-11-02",
+        "time": "11:00",
+        "location": "Rijksmuseum, Van Gogh Museum",
+        "details": "Spend the day exploring two of Amsterdam's top museums, the Rijksmuseum and the Van Gogh Museum."
+      },
+      {
+        "name": "Day 4 - Bike Tour and Parks",
+        "date": "2023-11-03",
+        "time": "10:00",
+        "location": "Various Locations",
+        "details": "Rent a bike and explore the city's many parks and green spaces, including Vondelpark and Amsterdamse Bos."
+      },
+      {
+        "name": "Day 5 - Jordaan Neighborhood",
+        "date": "2023-11-04",
+        "time": "13:00",
+        "location": "Jordaan Neighborhood",
+        "details": "Wander through the charming Jordaan neighborhood, known for its picturesque canals, cafes, and boutiques."
+      },
+      {
+        "name": "Day 6 - Anne Frank House and Red Light District",
+        "date": "2023-11-05",
+        "time": "10:00",
+        "location": "Anne Frank House, Red Light District",
+        "details": "Visit the Anne Frank House, a moving tribute to the Holocaust, and then explore Amsterdam's famous Red Light District."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-11-06",
+        "time": "12:00",
+        "location": "Hotel XYZ",
+        "details": "Check-out from your hotel and say goodbye to the beautiful city of Amsterdam."
+      }
+    ]
+  },
+  {
+    "destinationId": 8,
+    "dates": "2023-10-31 - 2023-11-06",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-10-31",
+        "time": "15:00",
+        "location": "Hotel XYZ",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Amsterdam by Boat",
+        "date": "2023-11-01",
+        "time": "10:00",
+        "location": "Various Locations",
+        "details": "Explore Amsterdam's canals and waterways on a boat tour and take in the city's historic architecture and scenic views."
+      },
+      {
+        "name": "Day 3 - Museumplein and Albert Cuyp Market",
+        "date": "2023-11-02",
+        "time": "11:00",
+        "location": "Museumplein, Albert Cuyp Market",
+        "details": "Visit the Museumplein area to see the famous I Amsterdam sign and some of the city's top museums, such as the Stedelijk Museum and the Moco Museum. In the afternoon, explore the vibrant Albert Cuyp Market for local foods and souvenirs."
+      },
+      {
+        "name": "Day 4 - Amsterdam on Foot",
+        "date": "2023-11-03",
+        "time": "10:00",
+        "location": "Various Locations",
+        "details": "Take a walking tour of Amsterdam's historic city center, including the Dam Square, the Royal Palace, and the Begijnhof courtyard."
+      },
+      {
+        "name": "Day 5 - Dutch Countryside and Windmills",
+        "date": "2023-11-04",
+        "time": "13:00",
+        "location": "Zaanse Schans",
+        "details": "Take a day trip to the nearby Zaanse Schans village, where you can explore working windmills and traditional Dutch architecture in the countryside."
+      },
+      {
+        "name": "Day 6 - Food and Drink",
+        "date": "2023-11-05",
+        "time": "18:00",
+        "location": "Various Locations",
+        "details": "Sample some of Amsterdam's local foods and drinks on a food tour, including Dutch cheese, craft beer, and stroopwafels."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-11-06",
+        "time": "12:00",
+        "location": "Hotel XYZ",
+        "details": "Check-out from your hotel and say goodbye to the beautiful city of Amsterdam."
+      }
+    ]
+  },
+  {
+    "destinationId": 9,
+    "dates": "2023-11-08 - 2023-11-14",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-11-08",
+        "time": "15:00",
+        "location": "Hotel ABC",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - La Sagrada Familia and Park Güell",
+        "date": "2023-11-09",
+        "time": "10:00",
+        "location": "La Sagrada Familia",
+        "details": "Visit the iconic La Sagrada Familia and marvel at its stunning architecture. Afterward, head to Park Güell for a scenic walk and beautiful views of the city."
+      },
+      {
+        "name": "Day 3 - Gothic Quarter and Picasso Museum",
+        "date": "2023-11-10",
+        "time": "11:00",
+        "location": "Gothic Quarter",
+        "details": "Explore the charming Gothic Quarter and discover its narrow streets, beautiful architecture, and historical landmarks. In the afternoon, visit the Picasso Museum and admire the incredible art collections."
+      },
+      {
+        "name": "Day 4 - Montserrat Monastery",
+        "date": "2023-11-11",
+        "time": "09:00",
+        "location": "Montserrat Monastery",
+        "details": "Take a day trip to the stunning Montserrat Monastery and enjoy the breathtaking views of the mountain range. You can also visit the Basilica and the Museum of Montserrat."
+      },
+      {
+        "name": "Day 5 - La Boqueria Market and Beach Day",
+        "date": "2023-11-12",
+        "time": "12:00",
+        "location": "La Boqueria Market",
+        "details": "Visit the famous La Boqueria Market and try some of the best Spanish delicacies. In the afternoon, head to the beach and relax in the sun."
+      },
+      {
+        "name": "Day 6 - Tapas and Wine Tour",
+        "date": "2023-11-13",
+        "time": "18:00",
+        "location": "Various locations",
+        "details": "Join a guided food tour and taste some of the best Spanish tapas and wines in the city."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-11-14",
+        "time": "12:00",
+        "location": "Hotel ABC",
+        "details": "Check-out from your hotel and say goodbye to the vibrant city of Barcelona."
+      }
+    ]
+  },
+  {
+    "destinationId": 9,
+    "dates": "2023-11-08 - 2023-11-14",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-11-08",
+        "time": "15:00",
+        "location": "Hotel ABC",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Gothic Quarter and Picasso Museum",
+        "date": "2023-11-09",
+        "time": "10:00",
+        "location": "Gothic Quarter",
+        "details": "Explore the charming Gothic Quarter and discover its narrow streets, beautiful architecture, and historical landmarks. In the afternoon, visit the Picasso Museum and admire the incredible art collections."
+      },
+      {
+        "name": "Day 3 - La Sagrada Familia and Park Güell",
+        "date": "2023-11-10",
+        "time": "11:00",
+        "location": "La Sagrada Familia",
+        "details": "Visit the iconic La Sagrada Familia and marvel at its stunning architecture. Afterward, head to Park Güell for a scenic walk and beautiful views of the city."
+      },
+      {
+        "name": "Day 4 - Montserrat Monastery",
+        "date": "2023-11-11",
+        "time": "09:00",
+        "location": "Montserrat Monastery",
+        "details": "Take a day trip to the stunning Montserrat Monastery and enjoy the breathtaking views of the mountain range. You can also visit the Basilica and the Museum of Montserrat."
+      },
+      {
+        "name": "Day 5 - La Boqueria Market and Flamenco Show",
+        "date": "2023-11-12",
+        "time": "12:00",
+        "location": "La Boqueria Market",
+        "details": "Visit the famous La Boqueria Market and try some of the best Spanish delicacies. In the evening, watch a traditional Flamenco Show and immerse yourself in the vibrant Spanish culture."
+      },
+      {
+        "name": "Day 6 - Barceloneta Beach and Tapas Tour",
+        "date": "2023-11-13",
+        "time": "14:00",
+        "location": "Barceloneta Beach",
+        "details": "Spend the day relaxing on the beautiful Barceloneta Beach and enjoy the Mediterranean sun. In the evening, join a guided Tapas Tour and taste some of the best Spanish food and wines."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-11-14",
+        "time": "12:00",
+        "location": "Hotel ABC",
+        "details": "Check-out from your hotel and say goodbye to the vibrant city of Barcelona."
+      }
+    ]
+  },
+  {
+    "destinationId": 10,
+    "dates": "2023-11-15 - 2023-11-21",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-11-15",
+        "time": "15:00",
+        "location": "Hotel XYZ",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Grand Palace and Wat Phra Kaew",
+        "date": "2023-11-16",
+        "time": "09:00",
+        "location": "Grand Palace and Wat Phra Kaew",
+        "details": "Visit the Grand Palace and Wat Phra Kaew, two of the most famous tourist attractions in Bangkok."
+      },
+      {
+        "name": "Day 3 - Chatuchak Weekend Market",
+        "date": "2023-11-17",
+        "time": "10:00",
+        "location": "Chatuchak Weekend Market",
+        "details": "Explore the largest market in Thailand and discover a wide range of products from clothing to food and everything in between."
+      },
+      {
+        "name": "Day 4 - Wat Arun and Chao Phraya River",
+        "date": "2023-11-18",
+        "time": "11:00",
+        "location": "Wat Arun and Chao Phraya River",
+        "details": "Take a boat tour along the Chao Phraya River and visit Wat Arun, a beautiful temple known for its iconic spire."
+      },
+      {
+        "name": "Day 5 - Jim Thompson House and Siam Paragon",
+        "date": "2023-11-19",
+        "time": "09:00",
+        "location": "Jim Thompson House and Siam Paragon",
+        "details": "Visit the Jim Thompson House, a unique museum that showcases traditional Thai architecture and art. Afterward, explore Siam Paragon, a luxury shopping mall that offers a wide range of high-end products."
+      },
+      {
+        "name": "Day 6 - Khao San Road and Wat Saket",
+        "date": "2023-11-20",
+        "time": "12:00",
+        "location": "Khao San Road and Wat Saket",
+        "details": "Experience the vibrant atmosphere of Khao San Road, a popular backpacker destination that offers a variety of street food, bars, and souvenir shops. Later, visit Wat Saket, a golden mount that provides a panoramic view of Bangkok."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-11-21",
+        "time": "12:00",
+        "location": "Hotel XYZ",
+        "details": "Check-out from your hotel and say goodbye to Bangkok."
+      }
+    ]
+  },
+  {
+    "destinationId": 10,
+    "dates": "2023-11-15 - 2023-11-21",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-11-15",
+        "time": "15:00",
+        "location": "Hotel XYZ",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Wat Pho and Flower Market",
+        "date": "2023-11-16",
+        "time": "09:00",
+        "location": "Wat Pho and Flower Market",
+        "details": "Visit Wat Pho, one of the oldest and largest temples in Bangkok, and admire its impressive reclining Buddha. Afterwards, explore the colorful Flower Market and take in the sweet fragrance of fresh flowers."
+      },
+      {
+        "name": "Day 3 - Chinatown and Wat Mangkon Kamalawat",
+        "date": "2023-11-17",
+        "time": "10:00",
+        "location": "Chinatown and Wat Mangkon Kamalawat",
+        "details": "Discover the vibrant culture of Bangkok's Chinatown and enjoy delicious Chinese food. Then, visit Wat Mangkon Kamalawat, a Chinese temple known for its intricate architecture and decorations."
+      },
+      {
+        "name": "Day 4 - Bangkok Art and Culture Centre and MBK Center",
+        "date": "2023-11-18",
+        "time": "11:00",
+        "location": "Bangkok Art and Culture Centre and MBK Center",
+        "details": "Explore the Bangkok Art and Culture Centre, a modern art museum that showcases works by local and international artists. Afterwards, shop till you drop at MBK Center, a popular shopping mall that offers a wide range of products at affordable prices."
+      },
+      {
+        "name": "Day 5 - Ayutthaya Day Trip",
+        "date": "2023-11-19",
+        "time": "08:00",
+        "location": "Ayutthaya",
+        "details": "Take a day trip to Ayutthaya, the former capital of Thailand and a UNESCO World Heritage Site. Visit ancient temples and ruins, and learn about the fascinating history of this once-great city."
+      },
+      {
+        "name": "Day 6 - Bangkok National Museum and Wat Benchamabophit",
+        "date": "2023-11-20",
+        "time": "12:00",
+        "location": "Bangkok National Museum and Wat Benchamabophit",
+        "details": "Visit the Bangkok National Museum and discover the rich history and culture of Thailand through its impressive collection of artifacts and exhibits. Later, explore the beautiful Wat Benchamabophit, a marble temple that is one of the most popular in Bangkok."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-11-21",
+        "time": "12:00",
+        "location": "Hotel XYZ",
+        "details": "Check-out from your hotel and say goodbye to Bangkok."
+      }
+    ]
+  },
+  {
+    "destinationId": 11,
+    "dates": "2023-11-22 - 2023-11-28",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-11-22",
+        "time": "15:00",
+        "location": "Hotel ABC",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Explore Fira",
+        "date": "2023-11-23",
+        "time": "10:00",
+        "location": "Fira",
+        "details": "Explore the charming town of Fira, with its winding streets and stunning views of the caldera."
+      },
+      {
+        "name": "Day 3 - Beach Day",
+        "date": "2023-11-24",
+        "time": "11:00",
+        "location": "Perissa Beach",
+        "details": "Spend the day soaking up the sun at Perissa Beach, with its black sand and crystal-clear waters."
+      },
+      {
+        "name": "Day 4 - Wine Tour",
+        "date": "2023-11-25",
+        "time": "16:00",
+        "location": "Santo Wines",
+        "details": "Take a guided tour of Santo Wines and taste some of the best wines produced on the island."
+      },
+      {
+        "name": "Day 5 - Boat Tour",
+        "date": "2023-11-26",
+        "time": "09:00",
+        "location": "Ammoudi Bay",
+        "details": "Take a boat tour around the island, stopping at picturesque Ammoudi Bay for lunch and swimming in the Aegean Sea."
+      },
+      {
+        "name": "Day 6 - Oia Sunset",
+        "date": "2023-11-27",
+        "time": "18:00",
+        "location": "Oia",
+        "details": "Experience the breathtaking sunset in Oia, with its white-washed houses and stunning views of the caldera."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-11-28",
+        "time": "12:00",
+        "location": "Hotel ABC",
+        "details": "Check-out from your hotel and say goodbye to the beautiful island of Santorini."
+      }
+    ]
+  },
+  {
+    "destinationId": 11,
+    "dates": "2023-11-22 - 2023-11-28",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-11-22",
+        "time": "15:00",
+        "location": "Hotel ABC",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Red Beach and Akrotiri Archaeological Site",
+        "date": "2023-11-23",
+        "time": "10:00",
+        "location": "Red Beach and Akrotiri",
+        "details": "Visit the famous Red Beach and explore the Akrotiri Archaeological Site, a Minoan Bronze Age settlement destroyed in a volcanic eruption."
+      },
+      {
+        "name": "Day 3 - Sunset Cruise",
+        "date": "2023-11-24",
+        "time": "16:00",
+        "location": "Amoudi Bay",
+        "details": "Embark on a sunset cruise from Amoudi Bay and enjoy the stunning views of the caldera, hot springs and famous volcano."
+      },
+      {
+        "name": "Day 4 - Winery and Sunset in Pyrgos",
+        "date": "2023-11-25",
+        "time": "11:00",
+        "location": "Santo Wines and Pyrgos",
+        "details": "Visit Santo Wines winery and taste some of the best wines produced on the island, then head to the charming village of Pyrgos to watch the sunset."
+      },
+      {
+        "name": "Day 5 - ATV Adventure",
+        "date": "2023-11-26",
+        "time": "09:00",
+        "location": "Fira",
+        "details": "Rent an ATV and explore the island's scenic roads, stopping at various attractions like the Prophet Elias Monastery, the Venetian Castle in Akrotiri, and the black sand Perissa Beach."
+      },
+      {
+        "name": "Day 6 - Private Catamaran Tour",
+        "date": "2023-11-27",
+        "time": "10:00",
+        "location": "Vlychada Marina",
+        "details": "Experience the ultimate luxury on a private catamaran tour of Santorini. Sail past the caldera, swim in crystal-clear waters and savor a gourmet meal on board."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-11-28",
+        "time": "12:00",
+        "location": "Hotel ABC",
+        "details": "Check-out from your hotel and say goodbye to the beautiful island of Santorini."
+      }
+    ]
+  },
+  {
+    "destinationId": 12,
+    "dates": "2023-11-29 - 2023-12-05",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-11-29",
+        "time": "15:00",
+        "location": "Hotel XYZ",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Burj Khalifa",
+        "date": "2023-11-30",
+        "time": "10:00",
+        "location": "Burj Khalifa",
+        "details": "Visit the tallest building in the world and take in the stunning views of Dubai from the observation deck."
+      },
+      {
+        "name": "Day 3 - Desert Safari",
+        "date": "2023-12-01",
+        "time": "16:00",
+        "location": "Dubai Desert",
+        "details": "Experience the thrill of a desert safari with dune bashing, camel rides, and a traditional Arabic dinner under the stars."
+      },
+      {
+        "name": "Day 4 - Dubai Mall",
+        "date": "2023-12-02",
+        "time": "11:00",
+        "location": "Dubai Mall",
+        "details": "Shop to your heart's content at one of the largest malls in the world, with over 1,200 stores, an indoor theme park, and an aquarium."
+      },
+      {
+        "name": "Day 5 - Dubai Miracle Garden",
+        "date": "2023-12-03",
+        "time": "09:00",
+        "location": "Dubai Miracle Garden",
+        "details": "Explore the world's largest flower garden with over 45 million flowers arranged in beautiful designs and sculptures."
+      },
+      {
+        "name": "Day 6 - Dubai Museum",
+        "date": "2023-12-05",
+        "time": "12:00",
+        "location": "Dubai Museum",
+        "details": "Learn about the history and culture of Dubai with exhibits on traditional life, pearl diving, and the development of the city."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-12-06",
+        "time": "12:00",
+        "location": "Hotel XYZ",
+        "details": "Check-out from your hotel and say goodbye to the vibrant city of Dubai."
+      }
+    ]
+  },
+  {
+    "destinationId": 12,
+    "dates": "2023-11-29 - 2023-12-05",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-11-29",
+        "time": "15:00",
+        "location": "Hotel XYZ",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Dubai Miracle Garden",
+        "date": "2023-11-30",
+        "time": "10:00",
+        "location": "Dubai Miracle Garden",
+        "details": "Start your day at the world's largest flower garden with over 45 million flowers arranged in beautiful designs and sculptures."
+      },
+      {
+        "name": "Day 3 - Ski Dubai",
+        "date": "2023-12-01",
+        "time": "16:00",
+        "location": "Mall of the Emirates",
+        "details": "Escape the desert heat and hit the slopes at Ski Dubai, an indoor ski resort with real snow."
+      },
+      {
+        "name": "Day 4 - Dubai Creek",
+        "date": "2023-12-02",
+        "time": "11:00",
+        "location": "Dubai Creek",
+        "details": "Take a traditional abra boat ride on Dubai Creek and explore the historic Al Fahidi neighborhood."
+      },
+      {
+        "name": "Day 5 - Dubai Mall",
+        "date": "2023-12-03",
+        "time": "09:00",
+        "location": "Dubai Mall",
+        "details": "Shop to your heart's content at one of the largest malls in the world, with over 1,200 stores, an indoor theme park, and an aquarium."
+      },
+      {
+        "name": "Day 6 - Dubai Museum",
+        "date": "2023-12-04",
+        "time": "12:00",
+        "location": "Dubai Museum",
+        "details": "Learn about the history and culture of Dubai with exhibits on traditional life, pearl diving, and the development of the city."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-12-05",
+        "time": "12:00",
+        "location": "Hotel XYZ",
+        "details": "Check-out from your hotel and say goodbye to the vibrant city of Dubai."
+      }
+    ]
+  },
+  {
+    "destinationId": 13,
+    "dates": "2023-12-07- 2023-12-13",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-12-07",
+        "time": "15:00",
+        "location": "Hotel Nacional de Cuba",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Explore Old Havana",
+        "date": "2023-12-08",
+        "time": "10:00",
+        "location": "Old Havana",
+        "details": "Take a walking tour of Old Havana and explore the city's rich history and culture."
+      },
+      {
+        "name": "Day 3 - Visit the Museums",
+        "date": "2023-12-09",
+        "time": "11:00",
+        "location": "Museo Nacional de Bellas Artes, Museum of the Revolution",
+        "details": "Spend the day visiting the Museo Nacional de Bellas Artes and the Museum of the Revolution to learn more about Cuban art and history."
+      },
+      {
+        "name": "Day 4 - Beach Day",
+        "date": "2023-12-10",
+        "time": "09:00",
+        "location": "Varadero Beach",
+        "details": "Take a day trip to Varadero Beach, one of the most beautiful beaches in Cuba, and enjoy the sun and sea."
+      },
+      {
+        "name": "Day 5 - Explore the Countryside",
+        "date": "2023-12-11",
+        "time": "12:00",
+        "location": "Vinales Valley",
+        "details": "Take a day trip to the Vinales Valley and explore the Cuban countryside. Visit a tobacco farm, see the famous mogotes, and take a boat ride through the Cueva del Indio cave system."
+      },
+      {
+        "name": "Day 6 - Salsa Dancing",
+        "date": "2023-12-12",
+        "time": "20:00",
+        "location": "Casa de la Musica",
+        "details": "Experience the vibrant nightlife of Havana by visiting Casa de la Musica and dancing the night away to salsa music."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-12-13",
+        "time": "12:00",
+        "location": "Hotel Nacional de Cuba",
+        "details": "Check-out from your hotel and say goodbye to Havana."
+      }
+    ]
+  },
+  {
+    "destinationId": 13,
+    "dates": "2023-12-07- 2023-12-13",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-12-07",
+        "time": "15:00",
+        "location": "Hotel Nacional de Cuba",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Tour of Havana",
+        "date": "2023-12-08",
+        "time": "10:00",
+        "location": "Plaza de la Revolución, Capitolio Nacional, Malecón",
+        "details": "Take a tour of Havana's iconic landmarks, including Plaza de la Revolución, Capitolio Nacional, and the Malecón waterfront."
+      },
+      {
+        "name": "Day 3 - Afro-Cuban Culture",
+        "date": "2023-12-09",
+        "time": "11:00",
+        "location": "Callejon de Hamel, Fundacion Fernando Ortiz",
+        "details": "Explore the Afro-Cuban culture of Havana with a visit to Callejon de Hamel, an alleyway filled with colorful murals and sculptures, and Fundacion Fernando Ortiz, a museum dedicated to the study of Cuban culture and society."
+      },
+      {
+        "name": "Day 4 - Cigar Making",
+        "date": "2023-12-10",
+        "time": "09:00",
+        "location": "Casa del Habano, Pinar del Río",
+        "details": "Take a day trip to Pinar del Río, the heart of Cuba's tobacco industry, and learn about the art of cigar making at Casa del Habano. Sample some of the best cigars in the world and explore the beautiful countryside."
+      },
+      {
+        "name": "Day 5 - Beach Day",
+        "date": "2023-12-11",
+        "time": "12:00",
+        "location": "Playa Paraiso",
+        "details": "Spend the day at Playa Paraiso, a stunning white-sand beach on the island of Cayo Largo. Swim in crystal-clear waters and soak up the sun on the beach."
+      },
+      {
+        "name": "Day 6 - Hemingway's Havana",
+        "date": "2023-12-12",
+        "time": "15:00",
+        "location": "Finca Vigía, El Floridita",
+        "details": "Explore the Havana that inspired Ernest Hemingway with a visit to Finca Vigía, his former home, and El Floridita, his favorite bar. Learn about the author's life and work in Cuba and enjoy a mojito in his honor."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-12-13",
+        "time": "12:00",
+        "location": "Hotel Nacional de Cuba",
+        "details": "Check-out from your hotel and say goodbye to Havana."
+      }
+    ]
+  },
+  {
+    "destinationId": 14,
+    "dates": "2023-12-14 - 2023-12-20",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-12-14",
+        "time": "15:00",
+        "location": "Riad XYZ",
+        "details": "Check-in to your riad and enjoy some mint tea and Moroccan pastries."
+      },
+      {
+        "name": "Day 2 - Explore the Medina",
+        "date": "2023-12-15",
+        "time": "10:00",
+        "location": "Medina",
+        "details": "Take a guided tour of the Medina, visit the souks and the famous Djemaa el-Fna square."
+      },
+      {
+        "name": "Day 3 - Bahia Palace and Saadian Tombs",
+        "date": "2023-12-16",
+        "time": "11:00",
+        "location": "Bahia Palace and Saadian Tombs",
+        "details": "Visit the stunning Bahia Palace and the historic Saadian Tombs."
+      },
+      {
+        "name": "Day 4 - Majorelle Garden and Yves Saint Laurent Museum",
+        "date": "2023-12-17",
+        "time": "09:00",
+        "location": "Majorelle Garden and Yves Saint Laurent Museum",
+        "details": "Explore the beautiful Majorelle Garden and visit the Yves Saint Laurent Museum."
+      },
+      {
+        "name": "Day 5 - Cooking Class and Hammam",
+        "date": "2023-12-18",
+        "time": "12:00",
+        "location": "Local Cooking School and Hammam",
+        "details": "Take a cooking class and learn how to make traditional Moroccan dishes, followed by a relaxing hammam experience."
+      },
+      {
+        "name": "Day 6 - Atlas Mountains and Berber Villages",
+        "date": "2023-12-19",
+        "time": "08:00",
+        "location": "Atlas Mountains and Berber Villages",
+        "details": "Take a day trip to the Atlas Mountains and visit traditional Berber villages, enjoy a traditional lunch with a stunning view."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-12-20",
+        "time": "12:00",
+        "location": "Riad XYZ",
+        "details": "Check-out from your riad and say goodbye to Marrakech."
+      }
+    ]
+  },
+  {
+    "destinationId": 13,
+    "dates": "2023-12-07- 2023-12-13",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-12-07",
+        "time": "15:00",
+        "location": "Riad Joya",
+        "details": "Check-in to your riad and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Exploring the Medina",
+        "date": "2023-12-08",
+        "time": "09:00",
+        "location": "Jardin Majorelle, Bahia Palace, Medina",
+        "details": "Explore the beauty and history of Marrakech's Medina, including the colorful Jardin Majorelle, the ornate Bahia Palace, and the bustling markets and alleyways of the Medina."
+      },
+      {
+        "name": "Day 3 - Cooking Class and Hammam",
+        "date": "2023-12-09",
+        "time": "11:00",
+        "location": "La Maison Arabe",
+        "details": "Take a cooking class at La Maison Arabe and learn how to make traditional Moroccan dishes. Afterward, relax and rejuvenate with a traditional hammam spa treatment."
+      },
+      {
+        "name": "Day 4 - Atlas Mountains Day Trip",
+        "date": "2023-12-10",
+        "time": "08:00",
+        "location": "Atlas Mountains",
+        "details": "Take a day trip to the stunning Atlas Mountains and visit Berber villages, hike to a waterfall, and enjoy a traditional lunch with scenic mountain views."
+      },
+      {
+        "name": "Day 5 - Gardens and Palaces",
+        "date": "2023-12-11",
+        "time": "10:00",
+        "location": "Majorelle Garden, El Badi Palace, Saadian Tombs",
+        "details": "Visit some of Marrakech's most beautiful gardens and palaces, including the tranquil Majorelle Garden, the ruins of El Badi Palace, and the ornate Saadian Tombs."
+      },
+      {
+        "name": "Day 6 - Hot Air Balloon Ride and Camel Ride",
+        "date": "2023-12-12",
+        "time": "06:00",
+        "location": "Marrakech Desert",
+        "details": "Experience the beauty of the Moroccan desert with a sunrise hot air balloon ride and a camel ride through the dunes. Afterward, enjoy a traditional breakfast in a Berber tent."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-12-13",
+        "time": "12:00",
+        "location": "Riad Joya",
+        "details": "Check-out from your riad and say goodbye to Marrakech."
+      }
+    ]
+  },
+  {
+    "destinationId": 15,
+    "dates": "2023-12-21 - 2023-12-27",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-12-21",
+        "time": "15:00",
+        "location": "Hotel Taj Resort",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Taj Mahal",
+        "date": "2023-12-22",
+        "time": "06:00",
+        "location": "Taj Mahal",
+        "details": "Visit the iconic Taj Mahal at sunrise and marvel at its beauty."
+      },
+      {
+        "name": "Day 3 - Agra Fort",
+        "date": "2023-12-23",
+        "time": "10:00",
+        "location": "Agra Fort",
+        "details": "Explore the Agra Fort, a UNESCO World Heritage Site, and learn about its rich history."
+      },
+      {
+        "name": "Day 4 - Fatehpur Sikri",
+        "date": "2023-12-24",
+        "time": "09:00",
+        "location": "Fatehpur Sikri",
+        "details": "Take a day trip to the deserted city of Fatehpur Sikri, another UNESCO World Heritage Site."
+      },
+      {
+        "name": "Day 5 - Itmad-ud-Daula",
+        "date": "2023-12-25",
+        "time": "10:00",
+        "location": "Itmad-ud-Daula",
+        "details": "Visit the beautiful Itmad-ud-Daula, also known as the Baby Taj."
+      },
+      {
+        "name": "Day 6 - Mehtab Bagh",
+        "date": "2023-12-26",
+        "time": "18:00",
+        "location": "Mehtab Bagh",
+        "details": "Enjoy the sunset at Mehtab Bagh and get a different perspective of the Taj Mahal."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-12-27",
+        "time": "12:00",
+        "location": "Hotel Taj Resort",
+        "details": "Check-out from your hotel and say goodbye to Agra."
+      }
+    ]
+  },
+  {
+    "destinationId": 15,
+    "dates": "2023-12-21 - 2023-12-27",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-12-21",
+        "time": "15:00",
+        "location": "Hotel Taj Resort",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Taj Mahal",
+        "date": "2023-12-22",
+        "time": "06:00",
+        "location": "Taj Mahal",
+        "details": "Visit the iconic Taj Mahal at sunrise and marvel at its beauty."
+      },
+      {
+        "name": "Day 3 - Agra Fort",
+        "date": "2023-12-23",
+        "time": "10:00",
+        "location": "Agra Fort",
+        "details": "Explore the Agra Fort, a UNESCO World Heritage Site, and learn about its rich history."
+      },
+      {
+        "name": "Day 4 - Wildlife Safari",
+        "date": "2023-12-24",
+        "time": "06:00",
+        "location": "Keetham Lake Wildlife Sanctuary",
+        "details": "Take a morning safari at Keetham Lake Wildlife Sanctuary and spot some of India's exotic animals, such as Bengal tigers, leopards, and sloth bears."
+      },
+      {
+        "name": "Day 5 - Day Trip to Mathura and Vrindavan",
+        "date": "2023-12-25",
+        "time": "08:00",
+        "location": "Mathura and Vrindavan",
+        "details": "Take a day trip to the holy cities of Mathura and Vrindavan, known for their association with Lord Krishna. Visit the Sri Krishna Janmabhoomi Temple in Mathura and the Banke Bihari Temple in Vrindavan."
+      },
+      {
+        "name": "Day 6 - Mehtab Bagh",
+        "date": "2023-12-26",
+        "time": "18:00",
+        "location": "Mehtab Bagh",
+        "details": "Enjoy the sunset at Mehtab Bagh and get a different perspective of the Taj Mahal."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-12-27",
+        "time": "12:00",
+        "location": "Hotel Taj Resort",
+        "details": "Check-out from your hotel and say goodbye to Agra."
+      }
+    ]
+  },
+  {
+    "destinationId": 16,
+    "dates": "2023-12-28 - 2023-01-03",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-12-28",
+        "time": "15:00",
+        "location": "Hotel Konsulat",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - Golden Circle Tour",
+        "date": "2023-12-29",
+        "time": "09:00",
+        "location": "Various locations",
+        "details": "Join a guided tour of Iceland's famous Golden Circle, which includes stops at Thingvellir National Park, Geysir, and Gullfoss waterfall."
+      },
+      {
+        "name": "Day 3 - Blue Lagoon Spa Day",
+        "date": "2023-12-30",
+        "time": "11:00",
+        "location": "Blue Lagoon",
+        "details": "Spend the day relaxing at the famous Blue Lagoon spa, which is known for its warm, mineral-rich waters."
+      },
+      {
+        "name": "Day 4 - Reykjavik City Tour",
+        "date": "2023-12-31",
+        "time": "10:00",
+        "location": "Various locations",
+        "details": "Explore the city of Reykjavik with a guided tour, which includes stops at Hallgrimskirkja Church, the Harpa Concert Hall, and the Sun Voyager sculpture."
+      },
+      {
+        "name": "Day 5 - Whale Watching",
+        "date": "2024-01-01",
+        "time": "14:00",
+        "location": "Old Harbour",
+        "details": "Take a whale watching tour from Reykjavik's Old Harbour and see these magnificent creatures up close."
+      },
+      {
+        "name": "Day 6 - Glacier Hike",
+        "date": "2024-01-02",
+        "time": "09:00",
+        "location": "Skaftafell National Park",
+        "details": "Join a guided glacier hike in Skaftafell National Park and explore the stunning ice formations."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-01-03",
+        "time": "12:00",
+        "location": "Hotel Konsulat",
+        "details": "Check-out from your hotel and say goodbye to Iceland, until next time."
+      }
+    ]
+  },
+  {
+    "destinationId": 16,
+    "dates": "2023-12-28 - 2023-01-03",
+    "events": [
+      {
+        "name": "Day 1 - Arrival and Check-in",
+        "date": "2023-12-28",
+        "time": "15:00",
+        "location": "Hotel Konsulat",
+        "details": "Check-in to your hotel and relax after your journey."
+      },
+      {
+        "name": "Day 2 - South Coast Tour",
+        "date": "2023-12-29",
+        "time": "09:00",
+        "location": "Various locations",
+        "details": "Join a guided tour of Iceland's stunning South Coast, which includes stops at Seljalandsfoss and Skógafoss waterfalls, the black sand beach at Reynisfjara, and the Sólheimajökull glacier."
+      },
+      {
+        "name": "Day 3 - Snorkeling in Silfra",
+        "date": "2023-12-30",
+        "time": "11:00",
+        "location": "Thingvellir National Park",
+        "details": "Experience the crystal-clear waters of Silfra, a fissure between the North American and Eurasian tectonic plates, on a snorkeling tour."
+      },
+      {
+        "name": "Day 4 - Northern Lights Tour",
+        "date": "2023-12-31",
+        "time": "22:00",
+        "location": "Various locations",
+        "details": "Join a guided tour to see the spectacular Northern Lights, a natural phenomenon that lights up the night sky in vibrant colors."
+      },
+      {
+        "name": "Day 5 - ATV Adventure",
+        "date": "2024-01-01",
+        "time": "14:00",
+        "location": "Various locations",
+        "details": "Go on an exciting ATV adventure through Iceland's rugged terrain and take in the stunning views."
+      },
+      {
+        "name": "Day 6 - Reykjadalur Hot Springs",
+        "date": "2024-01-02",
+        "time": "09:00",
+        "location": "Reykjadalur",
+        "details": "Hike to the Reykjadalur hot springs and enjoy a relaxing soak in the natural hot water."
+      },
+      {
+        "name": "Day 7 - Departure",
+        "date": "2023-01-03",
+        "time": "12:00",
+        "location": "Hotel Konsulat",
+        "details": "Check-out from your hotel and say goodbye to Iceland, until next time."
+      }
+    ]
+  }
+]

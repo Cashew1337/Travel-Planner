@@ -32,17 +32,17 @@
         "destinationId": 4
     },
     {
-        "name": "Safari Adventure in South Africa",
+        "name": "Adventure in South Africa",
         "startDate": "2023-10-08",
         "endDate": "2023-10-14",
-        "description": "Experience the thrill of a safari in the stunning South African savanna",
+        "description": "Experience the  the stunning South African savanna",
         "userId": 2,
         "destinationId": 5
     },
     {
         "name": "Relaxing Retreat in Bali",
         "startDate": "2023-10-15",
-        "endDate": "2023-10-22",
+        "endDate": "2023-10-21",
         "description": "Unwind and recharge in the peaceful surroundings of Bali's lush forests and serene beaches",
         "userId": 3,
         "destinationId": 6
@@ -50,7 +50,7 @@
     {
         "name": "Exploring New York City",
         "startDate": "2023-10-23",
-        "endDate": "2023-10-30",
+        "endDate": "2023-10-29",
         "description": "Discover the iconic landmarks and hidden gems of the city that never sleeps",
         "userId": 1,
         "destinationId": 7
@@ -58,7 +58,7 @@
     {
         "name": "Cycling Tour in Amsterdam",
         "startDate": "2023-10-31",
-        "endDate": "2023-11-07",
+        "endDate": "2023-11-06",
         "description": "Explore the charming canals and historic architecture of Amsterdam by bike",
         "userId": 2,
         "destinationId": 8
@@ -66,65 +66,67 @@
     {
         "name": "City Break in Barcelona",
         "startDate": "2023-11-08",
-        "endDate": "2023-11-15",
+        "endDate": "2023-11-14",
         "description": "Experience the vibrant culture, delicious food, and stunning architecture of Barcelona",
         "userId": 3,
         "destinationId": 9
     },
     {
-        "name": "Island Adventure in Phuket",
-        "startDate": "2023-11-16",
-        "endDate": "2023-11-23",
-        "description": "Embark on an island adventure in Phuket, with its beautiful beaches and lively nightlife",
+        "name": "Adventure in Bangkok",
+        "startDate": "2023-11-15",
+        "endDate": "2023-11-21",
+        "description": "Embark on the gastro tour of a lifetime in the unique city of Bangkok",
         "userId": 1,
         "destinationId": 10
     },
     {
         "name": "Romantic Getaway in Santorini",
-        "startDate": "2023-11-24",
-        "endDate": "2023-12-01",
+        "startDate": "2023-11-22",
+        "endDate": "2023-11-28",
         "description": "Indulge in a romantic escape to the picturesque island of Santorini, with its stunning views and relaxing atmosphere",
         "userId": 2,
         "destinationId": 11
     },
     {
         "name": "Luxury Escape in Dubai",
-        "startDate": "2023-12-02",
-        "endDate": "2023-12-09",
+        "startDate": "2023-11-29",
+        "endDate": "2023-12-05",
         "description": "Indulge in the luxury and opulence of Dubai, with its iconic skyscrapers and luxurious shopping",
         "userId": 3,
         "destinationId": 12
     },
     {
         "name": "Cultural Exploration in Havana",
-        "startDate": "2023-12-10",
-        "endDate": "2023-12-17",
+        "startDate": "2023-12-07",
+        "endDate": "2023-12-13",
         "description": "Discover the rich history and vibrant culture of Havana, with its colorful buildings and lively music",
         "userId": 1,
         "destinationId": 13
     },
     {
         "name": "Moroccan Adventure in Marrakech",
-        "startDate": "2023-12-18",
-        "endDate": "2023-12-25",
+        "startDate": "2023-12-14",
+        "endDate": "2023-12-20",
         "description": "Embark on an adventure in the bustling markets and beautiful architecture of Marrakech",
         "userId": 2,
         "destinationId": 14
     },
     {
         "name": "Iconic Taj Mahal Experience in Agra",
-        "startDate": "2023-12-26",
-        "endDate": "2024-01-03",
+        "startDate": "2023-12-21",
+        "endDate": "2024-12-27",
         "description": "Visit the iconic Taj Mahal and discover the rich history of Agra and India",
         "userId": 3,
         "destinationId": 15
     },
     {
         "name": "Folksy Getaway to Scenic Reykjavik",
-        "startDate": "2024-01-04",
-        "endDate": "2024-01-11",
+        "startDate": "2023-12-28",
+        "endDate": "2024-01-03",
         "description": "Enjoy the hot springs and view the stunning northern lights in this quaint Icelandic",
         "userId": 1,
         "destinationId": 16
     }
+    
 ]
+
