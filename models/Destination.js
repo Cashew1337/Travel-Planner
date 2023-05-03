@@ -30,6 +30,12 @@ Destination.init(
         freezeTableName: true,
         underscored: true,
         modelName: 'destination',
+            allowNull : false
+        },
+        imageUrl: {
+            type: DataTypes.STRING,
+            allowNull:false 
+        }
     }
 );
 
