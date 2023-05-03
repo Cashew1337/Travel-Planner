@@ -37,7 +37,7 @@ Trip.init(
         },
         destinationId: {
             type: DataTypes.INTEGER,
-            References: {
+            references: {
                 model: 'destination',
                 key: 'id'
             },
@@ -51,6 +51,6 @@ Trip.init(
         underscored: true,
         modelName: 'trip',
     }
-)
+);
 
 module.exports = Trip
