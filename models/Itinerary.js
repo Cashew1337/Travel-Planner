@@ -57,7 +57,6 @@ Itinerary.init(
     underscored: true,
     modelName: 'itinerary',
     }
-  }
 );
 
 module.exports = Itinerary
