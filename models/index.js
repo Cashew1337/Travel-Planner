@@ -1,3 +1,20 @@
+const Destination = require('./Destination');
+const Trip = require('./Trip');
+const User = require('./User');
+
+User.hasMany(Trip, {
+  foreignKey: 'userId'
+});
+
+Destination.belongsToMany(User, {
+  through: {
+    model: Trip,
+    unique: false
+  },
+  as: 'location_travellers'
+});
+
+module.exports = { User, Destination, Trip };
 const Destination = require('../models/Destination');
 const Trip = require('../models/Trip');
 const User = require('../models/User');
@@ -22,4 +39,3 @@ User.belongsToMany(Destination, {
   });
   
   module.exports = { User, Destination, Trip, Itinerary};
-  

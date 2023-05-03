@@ -1,4 +1,4 @@
-const { Model, DataTypes } = require('sequelize');
+const { Model, DataTypes } = require('sequelize')
 const sequelize = require('../config/connection');
 
 class Destination extends Model {}
@@ -21,6 +21,15 @@ Destination.init(
         },
         description: {
             type: DataTypes.STRING,
+            allowNull: false
+        },
+    },
+    {
+        sequelize,
+        timestamps: false,
+        freezeTableName: true,
+        underscored: true,
+        modelName: 'destination',
             allowNull : false
         },
         imageUrl: {
@@ -28,6 +37,6 @@ Destination.init(
             allowNull:false 
         }
     }
-)
+);
 
 module.exports = Destination
