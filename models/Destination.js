@@ -23,6 +23,10 @@ Destination.init(
             type: DataTypes.STRING,
             allowNull: false
         },
+        imageUrl: {
+            type: DataTypes.STRING,
+            allowNull:false 
+        }
     },
     {
         sequelize,
@@ -31,12 +35,7 @@ Destination.init(
         underscored: true,
         modelName: 'destination',
             allowNull : false
-        },
-        imageUrl: {
-            type: DataTypes.STRING,
-            allowNull:false 
         }
-    }
 );
 
 module.exports = Destination
