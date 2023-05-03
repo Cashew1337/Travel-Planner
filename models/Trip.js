@@ -21,11 +21,6 @@ Trip.init(
         },
         endDate: {
             type: DataTypes.DATE,
-            type: DataTypes.STRING,
-            allowNull: false
-        },
-        endDate: {
-            type: DataTypes.STRING,
             allowNull: false
         },
         description: {
@@ -42,7 +37,7 @@ Trip.init(
         },
         destinationId: {
             type: DataTypes.INTEGER,
-            References: {
+            references: {
                 model: 'destination',
                 key: 'id'
             },
@@ -56,6 +51,6 @@ Trip.init(
         underscored: true,
         modelName: 'trip',
     }
-)
+);
 
 module.exports = Trip
