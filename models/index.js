@@ -1,6 +1,7 @@
 const Destination = require('../models/Destination');
 const Trip = require('../models/Trip');
 const User = require('../models/User');
+const Itinerary = require('../models/Itinerary')
 
 User.belongsToMany(Destination, {
    
@@ -20,5 +21,5 @@ User.belongsToMany(Destination, {
     as: 'location_travellers'
   });
   
-  module.exports = { User, Destination, Trip };
+  module.exports = { User, Destination, Trip, Itinerary};
   
