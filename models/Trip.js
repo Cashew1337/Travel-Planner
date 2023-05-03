@@ -16,15 +16,15 @@ Trip.init(
             allowNull: false,
         },
         startDate: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.DATE,
             allowNull: false
         },
         endDate: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.DATE,
             allowNull: false
         },
         description: {
-            type: DataTypes.STRING,
+            type: DataTypes.TEXT,
             allowNull: false,
         },
         userId: {
@@ -43,6 +43,13 @@ Trip.init(
             },
             unique: false
         }
+    },
+    {
+        sequelize,
+        timestamps: false,
+        freezeTableName: true,
+        underscored: true,
+        modelName: 'trip',
     }
 )
 
