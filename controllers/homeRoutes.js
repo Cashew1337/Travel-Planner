@@ -2,29 +2,28 @@ const router = require('express').Router();
 const { Destination, Itinerary, Trip, User } = require('../models');
 
 router.get('/', async (req, res) => {
+    console.log('you have arrived')
     try {
-        const tripData = await Trip.findAll({
-            where: {
-                startDate: {
-                    $between: [
-                        Date.now(), Date.setMonth(Date.getMonth() + 3)
-                    ]
-                }
-            }
-        });
+        // const tripData = await Trip.findAll({
+        //     where: {
+        //         startDate: {
+        //             $between: [
+        //                 Date.getMonth(), Date.setMonth(Date.getMonth() + 3)
+        //             ]
+        //         }
+        //     }
+        // });
+        // console.log(Date.now, Date.setMonth(Date.getMonth + 3))
 
-        const trips = tripData.map((trip) => trip.get({ plain: true }));
+        // const trips = tripData.map((trip) => trip.get({ plain: true }));
 
-        res.render('homepage', {
-            trips,
-            logged_in: req.session.logged_in
-        });
+        res.render('homepage');
     } catch (err) {
         res.status(500).json(err);
     }
 });
 
-router.get('/trip/:id', async (req, res) => {
+router.get('/trips/:id', async (req, res) => {
     try {
         const tripData = await Trip.findByPk(req.params.id, {
             include: [
@@ -63,3 +62,14 @@ router.get('/profile', async (req, res) => {
         res.status(500).json(err);
     }
 });
+
+router.get('/login', (req, res) => {
+    if (req.session.logged_in) {
+        res.redirect('/profile');
+        return;
+    }
+
+    res.render('login');
+});
+
+module.exports = router;
