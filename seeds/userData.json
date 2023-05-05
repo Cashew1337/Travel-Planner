@@ -1,19 +1,24 @@
 
 [
-    {
-      "name": "Mac",
-      "email": "mac@example.com",
-      "password": "password123"
-    },
-    {
-      "name": "Rama",
-      "email": "rama@example.com",
-      "password": "password456"
-    },
-    {
-      "name": "Roxy",
-      "email": "Roxy@example.com",
-      "password": "password789"
-    }
-  ]
-  
+  {
+    "name": "Mac",
+    "email": "mac@example.com",
+    "phone": "1234567890",
+    "password": "password123",
+    "Background": "Lorem ipsum dolor sit amet"
+  },
+  {
+    "name": "Rama",
+    "email": "rama@example.com",
+    "phone": "1234567890",
+    "password": "password456",
+    "Background": "Lorem ipsum dolor sit amet"
+  },
+  {
+    "name": "Roxy",
+    "email": "Roxy@example.com",
+    "phone": "1234567890",
+    "password": "password789",
+    "Background": "Lorem ipsum dolor sit amet"
+  }
+]
