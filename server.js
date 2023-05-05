@@ -10,7 +10,7 @@ const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 // if we are using helpers, we can insert helpers inside curly brackets
-const hbs = exphbs.create({});
+const hbs = exphbs.create();
 
 
 const app = express();
@@ -45,6 +45,6 @@ app.use(routes);
 
 // firing it into local host
 // will recheck code for sequelize.sync({ force: false })
-app.listen(port, () => {
-    console.log(`Code Name's Website is Working! ${port}`)
+sequelize.sync({ force: false }).then(() => { app.listen(PORT, () => 
+    console.log(`Code Name's Website is Working! ${PORT}`));
   });

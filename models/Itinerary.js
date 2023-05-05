@@ -1,4 +1,4 @@
-const { Model, DataTypes } = require('sequelize');
+const { Model, DataTypes, STRING } = require('sequelize');
 const sequelize = require('../config/connection');
 
 class Itinerary extends Model { }
@@ -19,36 +19,10 @@ Itinerary.init(
             type: DataTypes.STRING,
             allowNull: false
         },
-        events: [
-            {
-                id: {
-                    type: DataTypes.INTEGER,
-                    allowNull: false,
-                    autoIncrement: true,
-                    primaryKey: true
-                },
-                name: {
-                    type: DataTypes.STRING,
-                    allowNull: false
-                },
-                date: {
-                    type: DataTypes.STRING,
-                    allowNull: false
-                },
-                time: {
-                    type: DataTypes.STRING,
-                    allowNull: false
-                },
-                location: {
-                    type: DataTypes.STRING,
-                    allowNull: false
-                },
-                details: {
-                    type: DataTypes.STRING,
-                    allowNull: false
-                }
-            }
-        ]
+        events: {
+            type: DataTypes.TEXT,
+            allowNull: true
+        }
     },
     {
     sequelize,
