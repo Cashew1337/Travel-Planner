@@ -3,17 +3,23 @@
     {
       "name": "Mac",
       "email": "mac@example.com",
-      "password": "password123"
+      "phone": 1234560909,
+      "password": "password123",
+      "background": ""
     },
     {
       "name": "Rama",
       "email": "rama@example.com",
-      "password": "password456"
+      "phone": 1234560909,
+      "password": "password456",
+      "background": ""
     },
     {
       "name": "Roxy",
       "email": "Roxy@example.com",
-      "password": "password789"
+      "phone": 1234560909,
+      "password": "password789",
+      "background": ""
     }
   ]
   
