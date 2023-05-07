@@ -4,7 +4,7 @@ const connection = require('./database');
 const User = connection.models.User;
 
 // check route!!
-const validPassword = require('../lib/passwordUtils').validPassword;
+const validPassword = require('../utils/passwordUtils').validPassword;
 
 const customFields = {
     usernameField: 'uname',
@@ -56,3 +56,4 @@ passport.deserializeUser((userId, done) => {
         .catch(err => done(err))
 });
 
+module.exports = passport;
