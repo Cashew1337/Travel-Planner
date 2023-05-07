@@ -1,7 +1,7 @@
-const { Model, DataTypes, STRING } = require('sequelize');
+const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Itinerary extends Model { }
+class Itinerary extends Model {}
 
 Itinerary.init(
     {
@@ -13,6 +13,18 @@ Itinerary.init(
         },
         destinationId: {
             type: DataTypes.INTEGER,
+            references: {
+                model: 'destination',
+                key: 'id'
+            },
+            allowNull: false
+        },
+        tripId: {
+            type: DataTypes.INTEGER,
+            references: {
+                model: 'trip',
+                key: 'id'
+            },
             allowNull: false
         },
         dates: {

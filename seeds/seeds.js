@@ -17,7 +17,6 @@ const seedDatabase = async () => {
 
     let modifiedItin = ItineraryData.map((itin) => { 
       itin.events = JSON.stringify(itin.events)
-      log(itin)
       return itin;
   });
 

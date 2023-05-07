@@ -3,23 +3,21 @@
     <div class="box">
         <h2>Trip 1</h2>
         <div class="grid-box">
-            {{#each itinerarys as |itinerary|}}
+            {{#each itinerary}}
             <div class="grid-item">
                 <p>{{itinerary.events}}</p>
             </div>
-            {{/each}}
         </div>
+        {{/each}}
         <h3>{{startDate}} - {{endDate}}</h3>
     </div>
     <div class="box">
         <h2>Trip 2</h2>
-        <div class="grid-box">
-            <div class="grid-item">
-                {{#each itinerarys as |itinerary|}}
+        {{!-- <div class="grid-box">
+            <div class="grid-item">        
                 <div class="grid-item">
                     <p>{{itinerary.events}}</p>
                 </div>
-                {{/each}}
             </div>
             <h3>{{startDate}} - {{endDate}}</h3>
         </div>
@@ -27,13 +25,11 @@
     <div class="box">
         <h2>Trip 3</h2>
         <div class="grid-box">
-            <div class="grid-item">
-                {{#each itinerarys as |itinerary|}}
+            <div class="grid-item">        
                 <div class="grid-item">
                     <p>{{itinerary.events}}</p>
                 </div>
-                {{/each}}
             </div>
             <h3>{{startDate}} - {{endDate}}</h3>
-        </div>
+        </div> --}}
     </div>
