@@ -1,3 +1,48 @@
+<nav class="navbar">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="/">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#about">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#work">My Previous Travels</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#contact">Contact</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/logout">Logout</a>
+    </li>
+  </ul>
+</nav>
+
+
+
+<div class="hero">
+  <img src="depositphotos_524170164-stock-photo-man-tourist-in-temple-ruin.jpg" alt="" />
+  <p class="name">{{User.name}}</p>
+</div>
+
+
+
+<div id="about" class="about">
+  <h1>Background</h1>
+  <p>
+    {{User.background}}
+  </p>
+</div>
+
+
+
+<div id="work" class="work">
+  <h1>My Previous Travels</h1>
+  <div class="card-area">
+    {{#each Destinations}}
+    <div style="background: url({{this.image}}); color: #fff" class="card">
+      <p>{{this.name}}</p>
+      
 <!-- Hero Section Start -->
 <div class="hero">
     <img src="depositphotos_524170164-stock-photo-man-tourist-in-temple-ruin.jpg" alt="" />
@@ -48,6 +93,30 @@
         <a href="">
             <i class="fa-brands fa-twitter"></i>
         </a>
-
     </div>
+    {{/each}}
+  </div>
 </div>
+
+
+
+<div id="contact" class="contact">
+  <h1>Contact</h1>
+  <h3>{{User.contact}}</h3>
+  <div class="contact-area">
+    {{#if User.email}}
+    <a href="mailto:{{User.email}}">
+      <i class="fa-regular fa-envelope"></i>
+    </a>
+    {{/if}}
+    {{#if User.phone}}
+    <a href="tel:{{User.phone}}">
+      <i class="fa-solid fa-phone"></i>
+    </a>
+    {{/if}}
+    <a href="{{User.twitter}}">
+      <i class="fa-brands fa-twitter"></i>
+    </a>
+  </div>
+</div>
+

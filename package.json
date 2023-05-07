@@ -26,5 +26,14 @@
         "passport": "^0.6.0",
         "passport-local": "^1.0.0",
         "sequelize": "^6.3.5"
-    }
+    },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cashew1337/Travel-Planner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cashew1337/Travel-Planner/issues"
+  },
+  "homepage": "https://github.com/Cashew1337/Travel-Planner#readme",
+  "description": ""
 }
