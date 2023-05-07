@@ -1,65 +1,35 @@
-<h2 class="title">Destination</h2>
-    <div class="container">
-        <div class="box">
-            <h2>Trip 1</h2>
-            <div class="grid-box">
-                <div class="grid-item">
-                    <h2>Day 1</h2>
-                    <p>Event</p>
-                </div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
+<h2 class="title">{{name}}</h2>
+<div class="container">
+    <div class="box">
+        <h2>Trip 1</h2>
+        <div class="grid-box">
+            {{#each itinerary}}
+            <div class="grid-item">
+                <p>{{itinerary.events}}</p>
             </div>
-            <h3>Date</h3>
         </div>
-        <div class="box">
-            <h2>Trip 2</h2>
-            <div class="grid-box">
+        {{/each}}
+        <h3>{{startDate}} - {{endDate}}</h3>
+    </div>
+    <div class="box">
+        <h2>Trip 2</h2>
+        {{!-- <div class="grid-box">
+            <div class="grid-item">        
                 <div class="grid-item">
-                    <h2>Day 1</h2>
-                    <p>Event</p>
+                    <p>{{itinerary.events}}</p>
                 </div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
             </div>
-            <h3>Date</h3>
+            <h3>{{startDate}} - {{endDate}}</h3>
         </div>
-        <div class="box">
-            <h2>Trip 3</h2>
-            <div class="grid-box">
+    </div>
+    <div class="box">
+        <h2>Trip 3</h2>
+        <div class="grid-box">
+            <div class="grid-item">        
                 <div class="grid-item">
-                    <h2>Day 1</h2>
-                    <p>Event</p>
+                    <p>{{itinerary.events}}</p>
                 </div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
             </div>
-            <h3>Date</h3>
-        </div>
+            <h3>{{startDate}} - {{endDate}}</h3>
+        </div> --}}
+    </div>

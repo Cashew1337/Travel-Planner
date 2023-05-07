@@ -1,5 +1,9 @@
+const path = require('path');
 const express = require('express');
 const session = require('express-session');
+var passport = require('passport');
+var crypto = require('crypto');
+
 const routes = require('./controllers');
 // MAC check if this is correct ^^^^ for your route path
 const exphbs = require('express-handlebars');
@@ -9,7 +13,7 @@ const exphbs = require('express-handlebars');
 const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
-// if we are using helpers, we can insert helpers inside curly brackets
+
 const hbs = exphbs.create();
 
 
@@ -31,6 +35,8 @@ const sess = {
 
 
 app.use(session(sess));
+app.use(passport.initialize());
+app.use(passport.session());
 
 
 app.engine('handlebars', hbs.engine);
@@ -39,12 +45,25 @@ app.set('view engine', 'handlebars');
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(express.static(path.join(__dirname, 'public')));
+
+// ------------ PASSPORT AUTHENTICATION --------------
+require('./config/passport');
+
+app.use(passport.initialize());
+app.use(passport.session());
+
+app.use((req, res, next) => {
+    console.log(req.session);
+    console.log(req.user);
+    next();
+})
+
 
 
 app.use(routes);
 
-// firing it into local host
-// will recheck code for sequelize.sync({ force: false })
+
 sequelize.sync({ force: false }).then(() => { app.listen(PORT, () => 
     console.log(`Code Name's Website is Working! ${PORT}`));
   });

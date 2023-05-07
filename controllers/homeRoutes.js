@@ -1,23 +1,49 @@
 const router = require('express').Router();
+const { Op } = require('sequelize');
 const { Destination, Itinerary, Trip, User } = require('../models');
+const date = new Date();
+let date_new = new Date();
+let date_3 = new Date(date_new.setMonth(date_new.getMonth() + 3));
+
+console.log(date.toISOString().split('T')[0], date_3.toISOString().split('T')[0]);
 
 router.get('/', async (req, res) => {
     console.log('you have arrived')
     try {
-        // const tripData = await Trip.findAll({
-        //     where: {
-        //         startDate: {
-        //             $between: [
-        //                 Date.getMonth(), Date.setMonth(Date.getMonth() + 3)
-        //             ]
-        //         }
-        //     }
-        // });
-        // console.log(Date.now, Date.setMonth(Date.getMonth + 3))
+        const tripData = await Trip.findAll({
+            where: {
+                startDate: {
+                    [Op.between]: [date.toISOString().split('T')[0], date_3.toISOString().split('T')[0]]
+                }
+            }
+        });
+        // console.log(date, date_3);
 
-        // const trips = tripData.map((trip) => trip.get({ plain: true }));
+        const trips = tripData.map((trip) => trip.get({ plain: true }));
+        console.log(trips);
 
-        res.render('homepage');
+        res.render('homepage', { trips });
+    } catch (err) {
+        res.status(500).json(err);
+    }
+});
+
+router.get('/destination/:id', async (req, res) => {
+    try {
+        const destinationData = await Destination.findByPk(req.params.id, {
+            include:[
+                {
+                    model: Trip,
+                    attributes: ['name']
+                },
+            ],
+        });
+
+        const destination = destinationData.get({ plain: true })
+
+        res.render('destination', {
+            ...destination
+        });
     } catch (err) {
         res.status(500).json(err);
     }
@@ -31,13 +57,17 @@ router.get('/trips/:id', async (req, res) => {
                     model: Destination,
                     attributes: ['name'],
                 },
+                {
+                    model: Itinerary,
+                    attributes: ['events']
+                },
             ],
         });
 
-        const trip = tripData.get({ plain: true });
+        const trips = tripData.get({ plain: true });
 
         res.render('trips', {
-            ...trip,
+            ...trips,
             logged_in: req.session.logged_in
         });
     } catch (err) {
