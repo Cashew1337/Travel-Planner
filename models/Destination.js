@@ -34,15 +34,7 @@ Destination.init(
     freezeTableName: true,
     underscored: true,
     modelName: 'destination',
-  },
-    {
-        sequelize,
-        timestamps: false,
-        freezeTableName: true,
-        underscored: true,
-        modelName: 'destination',
-            allowNull : false
-        }
+  }
 );
 
 module.exports = Destination;

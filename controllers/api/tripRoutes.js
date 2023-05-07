@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Trip } = require('../../models');
+const { Trip, Itinerary } = require('../../models');
 
 router.post('/', async (req, res) => {
     try {
@@ -25,5 +25,15 @@ router.delete('/:id', async (req, res) => {
         res.status(500).json(err);
     }
 });
+
+router.get('/:id', async (req, res) => {
+    try {
+        const tripData = await Trip.findByPk(req.params.id, {
+            include: [{}]
+        })
+    } catch (err) {
+        
+    }
+})
 
 module.exports = router;

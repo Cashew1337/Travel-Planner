@@ -1,6 +1,7 @@
 [
   {
     "destinationId": 1,
+    "tripId": 1,
     "dates": "2023-07-01 - 2023-07-07",
     "events": [
       {
@@ -56,6 +57,7 @@
   },
   {
     "destinationId": 1,
+    "tripId": 1,
     "dates": "2023-07-01 - 2023-07-07",
     "events": [
       {
@@ -111,6 +113,7 @@
   },
   {
     "destinationId": 1,
+    "tripId": 1,
     "dates": "2023-07-01 - 2023-07-07",
     "events": [
       {
@@ -166,6 +169,7 @@
   },
   {
     "destinationId": 2,
+    "tripId": 2,
     "dates": "2023-07-01 - 2023-07-07",
     "events": [
       {
@@ -228,6 +232,7 @@
   },
   {
     "destinationId": 2,
+    "tripId": 2,
     "dates": "2023-07-01 - 2023-07-07",
     "events": [
       {
@@ -290,6 +295,7 @@
   },
   {
     "destinationId": 2,
+    "tripId": 2,
     "dates": "2023-07-01 - 2023-07-07",
     "events": [
       {
@@ -352,6 +358,7 @@
   },
   {
     "destinationId": 3,
+    "tripId": 3,
     "dates": "2023-09-20 - 2023-09-26",
     "events": [
       {
@@ -407,6 +414,7 @@
   },
   {
     "destinationId": 3,
+    "tripId": 3,
     "dates": "2023-09-20 - 2023-09-26",
     "events": [
       {
@@ -462,6 +470,7 @@
   },
   {
     "destinationId": 3,
+    "tripId": 3,
     "dates": "2023-09-20 - 2023-09-26",
     "events": [
       {
@@ -517,6 +526,7 @@
   },
   {
     "destinationId": 4,
+    "tripId": 4,
     "dates": "2023-10-01 - 2023-10-07",
     "events": [
       {
@@ -572,6 +582,7 @@
   },
   {
     "destinationId": 4,
+    "tripId": 4,
     "dates": "2023-10-01 - 2023-10-07",
     "events": [
       {
@@ -627,6 +638,7 @@
   },
   {
     "destinationId": 4,
+    "tripId": 4,
     "dates": "2023-10-01 - 2023-10-07",
     "events": [
       {
@@ -682,6 +694,7 @@
   },
   {
     "destinationId": 5,
+    "tripId": 5,
     "dates": "2023-10-08- 2023-10-14",
     "events": [
       {
@@ -737,6 +750,7 @@
   },
   {
     "destinationId": 5,
+    "tripId": 5,
     "dates": "2023-10-08 - 2023-10-14",
     "events": [
       {
@@ -792,6 +806,7 @@
   },
   {
     "destinationId": 5,
+    "tripId": 5,
     "dates": "2023-10-08-2023-10-14",
     "events": [
       {
@@ -847,6 +862,7 @@
   },
   {
     "destinationId": 6,
+    "tripId": 6,
     "dates": "2023-10-15 - 2023-10-22",
     "events": [
       {
@@ -902,6 +918,7 @@
   },
   {
     "destinationId": 6,
+    "tripId": 6,
     "dates": "2023-10-15 - 2023-10-22",
     "events": [
       {
@@ -957,6 +974,7 @@
   },
   {
     "destinationId": 6,
+    "tripId": 6,
     "dates": "2023-10-15 - 2023-10-22",
     "events": [
       {
@@ -1012,6 +1030,7 @@
   },
   {
     "destinationId": 7,
+    "tripId": 7,
     "dates": "2023-10-23 - 2023-10-30",
     "events": [
       {
@@ -1067,6 +1086,7 @@
   },
   {
     "destinationId": 7,
+    "tripId": 7,
     "dates": "2023-10-15 - 2023-10-22",
     "events": [
       {
@@ -1129,6 +1149,7 @@
   },
   {
     "destinationId": 7,
+    "tripId": 7,
     "dates": "2023-10-23 - 2023-10-30",
     "events": [
       {
@@ -1191,6 +1212,7 @@
   },
   {
     "destinationId": 8,
+    "tripId": 8,
     "dates": "2023-10-31 - 2023-11-06",
     "events": [
       {
@@ -1246,6 +1268,7 @@
   },
   {
     "destinationId": 8,
+    "tripId": 8,
     "dates": "2023-10-31 - 2023-11-06",
     "events": [
       {
@@ -1301,6 +1324,7 @@
   },
   {
     "destinationId": 8,
+    "tripId": 8,
     "dates": "2023-10-31 - 2023-11-06",
     "events": [
       {
@@ -1356,6 +1380,7 @@
   },
   {
     "destinationId": 9,
+    "tripId": 9,
     "dates": "2023-11-08 - 2023-11-14",
     "events": [
       {
@@ -1411,6 +1436,7 @@
   },
   {
     "destinationId": 9,
+    "tripId": 9,
     "dates": "2023-11-08 - 2023-11-14",
     "events": [
       {
@@ -1466,6 +1492,7 @@
   },
   {
     "destinationId": 9,
+    "tripId": 9,
     "dates": "2023-11-08 - 2023-11-14",
     "events": [
       {
@@ -1521,6 +1548,7 @@
   },
   {
     "destinationId": 10,
+    "tripId": 10,
     "dates": "2023-11-15 - 2023-11-21",
     "events": [
       {
@@ -1576,6 +1604,7 @@
   },
   {
     "destinationId": 10,
+    "tripId": 10,
     "dates": "2023-11-15 - 2023-11-21",
     "events": [
       {
@@ -1631,6 +1660,7 @@
   },
   {
     "destinationId": 10,
+    "tripId": 10,
     "dates": "2023-11-15 - 2023-11-21",
     "events": [
       {
@@ -1686,6 +1716,7 @@
   },
   {
     "destinationId": 11,
+    "tripId": 11,
     "dates": "2023-11-22 - 2023-11-28",
     "events": [
       {
@@ -1741,6 +1772,7 @@
   },
   {
     "destinationId": 11,
+    "tripId": 11,
     "dates": "2023-11-22 - 2023-11-28",
     "events": [
       {
@@ -1796,6 +1828,7 @@
   },
   {
     "destinationId": 11,
+    "tripId": 11,
     "dates": "2023-11-22 - 2023-11-28",
     "events": [
       {
@@ -1851,6 +1884,7 @@
   },
   {
     "destinationId": 12,
+    "tripId": 12,
     "dates": "2023-11-29 - 2023-12-05",
     "events": [
       {
@@ -1906,6 +1940,7 @@
   },
   {
     "destinationId": 12,
+    "tripId": 12,
     "dates": "2023-11-29 - 2023-12-05",
     "events": [
       {
@@ -1961,6 +1996,7 @@
   },
   {
     "destinationId": 12,
+    "tripId": 12,
     "dates": "2023-11-29 - 2023-12-05",
     "events": [
       {
@@ -2016,6 +2052,7 @@
   },
   {
     "destinationId": 13,
+    "tripId": 13,
     "dates": "2023-12-07- 2023-12-13",
     "events": [
       {
@@ -2071,6 +2108,7 @@
   },
   {
     "destinationId": 13,
+    "tripId": 13,
     "dates": "2023-12-07- 2023-12-13",
     "events": [
       {
@@ -2126,6 +2164,7 @@
   },
   {
     "destinationId": 13,
+    "tripId": 13,
     "dates": "2023-12-07- 2023-12-13",
     "events": [
       {
@@ -2181,6 +2220,7 @@
   },
   {
     "destinationId": 14,
+    "tripId": 14,
     "dates": "2023-12-14 - 2023-12-20",
     "events": [
       {
@@ -2236,6 +2276,7 @@
   },
   {
     "destinationId": 14,
+    "tripId": 14,
     "dates": "2023-12-14 - 2023-12-20",
     "events": [
       {
@@ -2291,6 +2332,7 @@
   },
   {
     "destinationId": 14,
+    "tripId": 14,
     "dates": "2023-12-07- 2023-12-13",
     "events": [
       {
@@ -2346,6 +2388,7 @@
   },
   {
     "destinationId": 15,
+    "tripId": 15,
     "dates": "2023-12-21 - 2023-12-27",
     "events": [
       {
@@ -2401,6 +2444,7 @@
   },
   {
     "destinationId": 15,
+    "tripId": 15,
     "dates": "2023-12-21 - 2023-12-27",
     "events": [
       {
@@ -2456,6 +2500,7 @@
   },
   {
     "destinationId": 15,
+    "tripId": 15,
     "dates": "2023-12-21 - 2023-12-27",
     "events": [
       {
@@ -2511,6 +2556,7 @@
   },
   {
     "destinationId": 16,
+    "tripId": 16,
     "dates": "2023-12-28 - 2023-01-03",
     "events": [
       {
@@ -2566,6 +2612,7 @@
   },
   {
     "destinationId": 16,
+    "tripId": 16,
     "dates": "2023-12-28 - 2023-01-03",
     "events": [
       {
@@ -2621,6 +2668,7 @@
   },
   {
     "destinationId": 16,
+    "tripId": 16,
     "dates": "2023-12-28 - 2023-01-03",
     "events": [
       {

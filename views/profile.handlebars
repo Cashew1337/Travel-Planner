@@ -1,39 +1,40 @@
-
-
 <!-- Hero Section Start -->
-    <div class="hero">
-        <img src="depositphotos_524170164-stock-photo-man-tourist-in-temple-ruin.jpg" alt="" />
-        <p class="name">{{User.name}}</p>
-    </div>
+<div class="hero">
+    <img src="depositphotos_524170164-stock-photo-man-tourist-in-temple-ruin.jpg" alt="" />
+    <p class="name">{{User.name}}</p>
+</div>
 <!-- Hero Section End -->
 
 <!-- About Section Start-->
-    <div id="about" class="about">
-        <h1>Background</h1>
-       <p>
-            {{User.Background}}
-        </p>
-    </div>
-    <!-- About Section End -->
+<div id="about" class="about">
+    <h1>Background</h1>
+    <p>
+        {{User.Background}}
+    </p>
+</div>
+<!-- About Section End -->
 
-    <!-- Previous Travels Section Start -->
+<!-- Previous Travels Section Start -->
 
-    <div id="work" class="work">
-        <h1>My Previous Travels</h1>
-        <div class="card-area">
-            <div style="grid-column: span 3; background: url(./istockphoto-1309800132-1024x1024.jpg); color: #fff" class="card">
+<div id="work" class="work">
+    <h1>My Previous Travels</h1>
+    <div class="card-area">
+        <div style="grid-column: span 3; background: url(./istockphoto-1309800132-1024x1024.jpg); color: #fff"
+            class="card">
             <p>{{Destination.name}}</p>
-            </div>
-            {{/each}}
-            </div>
         </div>
-   
-<div  id="contact" class="contact">
-     <h3>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eveniet adipisci aspernatur eos suscipit tempora, facilis exercitationem voluptatum molestiae id dicta officiis, iure ipsum saepe alias accusamus dignissimos est laborum!
+        {{/each}}
+    </div>
+</div>
+
+<div id="contact" class="contact">
+    <h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, eveniet adipisci aspernatur eos suscipit
+        tempora, facilis exercitationem voluptatum molestiae id dicta officiis, iure ipsum saepe alias accusamus
+        dignissimos est laborum!
     </h3>
-     
-    <div class ="contact-area">
+
+    <div class="contact-area">
         {{#if email}}
         <a href="mailto:{{User.email}}">
             <i class="fa-regular fa-envelope"></i>
@@ -42,11 +43,11 @@
         <a href="tel:{{User.phone}}">
             <i class="fa-solid fa-phone"></i>
         </a>
-{{/if}}
+        {{/if}}
 
         <a href="">
             <i class="fa-brands fa-twitter"></i>
         </a>
-       
+
     </div>
 </div>

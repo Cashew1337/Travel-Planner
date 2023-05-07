@@ -7,34 +7,40 @@ User.hasMany(Trip, {
   foreignKey: 'userId'
 });
 
+Trip.hasMany(User, {
+  foreignKey: 'userId'
+});
+
 Destination.belongsToMany(User, {
   through: {
     model: Trip,
     unique: false
   },
-  as: 'location_travellers'
+  as: 'trip_destinations'
 });
 
 User.belongsToMany(Destination, {
-
   through: {
     model: Trip,
     unique: false
   },
-
-  as: 'planned_trips'
+  as: 'destination_travellers'
 });
 
 Destination.hasMany(Trip, {
   foreignKey: 'destinationId'
-})
+});
 
-// Destination.belongsToMany(User, {
-//   through: {
-//     model: Trip,
-//     unique: false
-//   },
-//   as: 'location_travellers'
-// });
+Trip.belongsTo(Destination, {
+  foreignKey: 'destinationId'
+});
+
+Trip.hasMany(Itinerary, {
+  foreignKey: 'tripId'
+});
+
+Itinerary.belongsTo(Trip, {
+  foreignKey: 'tripId'
+})
 
 module.exports = { User, Destination, Trip, Itinerary };
