@@ -1,52 +1,72 @@
 
+<nav class="navbar">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="/">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#about">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#work">My Previous Travels</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#contact">Contact</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/logout">Logout</a>
+    </li>
+  </ul>
+</nav>
 
-<!-- Hero Section Start -->
-    <div class="hero">
-        <img src="depositphotos_524170164-stock-photo-man-tourist-in-temple-ruin.jpg" alt="" />
-        <p class="name">{{User.name}}</p>
-    </div>
-<!-- Hero Section End -->
 
-<!-- About Section Start-->
-    <div id="about" class="about">
-        <h1>Background</h1>
-       <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quia ea odio sit ex dolorem quae modi. Ut molestias inventore ex iure dolore enim, aliquid rerum! Deleniti voluptatum rerum adipisci, recusandae obcaecati veritatis eligendi eos delectus iure magnam omnis tempore tempora voluptas, necessitatibus molestias? Rerum magni dolor eveniet sequi blanditiis dolores excepturi, quibusdam reiciendis perferendis quos, minus laboriosam, harum at! Illum odit consequuntur provident, recusandae dolorum esse suscipit explicabo doloribus rerum quae asperiores eius? Tenetur perferendis explicabo eligendi maxime harum maiores consequuntur ipsum. Laborum, obcaecati unde modi facilis ea officia nihil perferendis? Repellendus consectetur soluta tempora. Sit iusto vel praesentium.
-        </p>
-    </div>
-    <!-- About Section End -->
 
-    <!-- Previous Travels Section Start -->
-
-    <div id="work" class="work">
-        <h1>My Previous Travels</h1>
-        <div class="card-area">
-            <div style="grid-column: span 3; background: url(./istockphoto-1309800132-1024x1024.jpg); color: #fff" class="card">
-            <p>{{Destination.name}}</p>
-            </div>
-            {{/each}}
-            </div>
-        </div>
-   
-<div  id="contact" class="contact">
-    <h1>Contact</h1>
-    <h3>
-      {{User.contact}}
-    </h3>
-    <div class ="contact-area">
-        {{#if email}}
-        <a href="mailto:{{User.email}}">
-            <i class="fa-regular fa-envelope"></i>
-        </a>
-
-        <a href="tel:{{User.phone}}">
-            <i class="fa-solid fa-phone"></i>
-        </a>
-{{/if}}
-
-        <a href="">
-            <i class="fa-brands fa-twitter"></i>
-        </a>
-       
-    </div>
+<div class="hero">
+  <img src="depositphotos_524170164-stock-photo-man-tourist-in-temple-ruin.jpg" alt="" />
+  <p class="name">{{User.name}}</p>
 </div>
+
+
+
+<div id="about" class="about">
+  <h1>Background</h1>
+  <p>
+    {{User.background}}
+  </p>
+</div>
+
+
+
+<div id="work" class="work">
+  <h1>My Previous Travels</h1>
+  <div class="card-area">
+    {{#each Destinations}}
+    <div style="background: url({{this.image}}); color: #fff" class="card">
+      <p>{{this.name}}</p>
+    </div>
+    {{/each}}
+  </div>
+</div>
+
+
+
+<div id="contact" class="contact">
+  <h1>Contact</h1>
+  <h3>{{User.contact}}</h3>
+  <div class="contact-area">
+    {{#if User.email}}
+    <a href="mailto:{{User.email}}">
+      <i class="fa-regular fa-envelope"></i>
+    </a>
+    {{/if}}
+    {{#if User.phone}}
+    <a href="tel:{{User.phone}}">
+      <i class="fa-solid fa-phone"></i>
+    </a>
+    {{/if}}
+    <a href="{{User.twitter}}">
+      <i class="fa-brands fa-twitter"></i>
+    </a>
+  </div>
+</div>
+
