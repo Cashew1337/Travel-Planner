@@ -20,6 +20,7 @@
         "express": "^4.17.1",
         "express-handlebars": "^5.2.0",
         "express-session": "^1.17.1",
+        "helmet": "^7.0.0",
         "mongoose": "^7.1.0",
         "mysql2": "^2.2.5",
         "nodemon": "^2.0.22",
@@ -28,12 +29,11 @@
         "sequelize": "^6.3.5"
     },
     "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Cashew1337/Travel-Planner.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Cashew1337/Travel-Planner/issues"
-  },
-  "homepage": "https://github.com/Cashew1337/Travel-Planner#readme",
-  "description": ""
+        "type": "git",
+        "url": "git+https://github.com/Cashew1337/Travel-Planner.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Cashew1337/Travel-Planner/issues"
+    },
+    "homepage": "https://github.com/Cashew1337/Travel-Planner#readme"
 }
