@@ -1,9 +1,10 @@
 const path = require('path');
 const express = require('express');
 const session = require('express-session');
+const helmet = require("helmet");
 
 const routes = require('./controllers');
-// MAC check if this is correct ^^^^ for your route path
+
 const exphbs = require('express-handlebars');
 
 
@@ -32,6 +33,7 @@ const sess = {
 
 
 app.use(session(sess));
+app.use(helmet());
 
 
 app.engine('handlebars', hbs.engine);
