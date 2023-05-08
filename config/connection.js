@@ -13,7 +13,10 @@ if (process.env.JAWSDB_URL) {
         {
             host: 'localhost',
             dialect: 'mysql',
-            port: 3306
+            port: 3306,
+            useNewUrlParser: true,
+            useUnifiedTopology: true
+        // options above suppress any warning messages
         }
     );
 }

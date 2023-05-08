@@ -1,15 +1,12 @@
 const path = require('path');
 const express = require('express');
 const session = require('express-session');
-var passport = require('passport');
-var crypto = require('crypto');
 
 const routes = require('./controllers');
 // MAC check if this is correct ^^^^ for your route path
 const exphbs = require('express-handlebars');
-// if we are using helpers, we can insert here
 
-// again need to check if the path route is correct
+
 const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
@@ -35,8 +32,6 @@ const sess = {
 
 
 app.use(session(sess));
-app.use(passport.initialize());
-app.use(passport.session());
 
 
 app.engine('handlebars', hbs.engine);
@@ -46,18 +41,6 @@ app.set('view engine', 'handlebars');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
-
-// ------------ PASSPORT AUTHENTICATION --------------
-require('./config/passport');
-
-app.use(passport.initialize());
-app.use(passport.session());
-
-app.use((req, res, next) => {
-    console.log(req.session);
-    console.log(req.user);
-    next();
-})
 
 
 
