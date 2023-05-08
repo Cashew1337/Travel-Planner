@@ -1,4 +1,5 @@
 const router = require('express').Router();
+const withAuth = require('../utils/auth')
 const { Op } = require('sequelize');
 const { Destination, Itinerary, Trip, User } = require('../models');
 const date = new Date();
@@ -75,7 +76,7 @@ router.get('/trips/:id', async (req, res) => {
     }
 });
 
-router.get('/profile', async (req, res) => {
+router.get('/profile', withAuth, async (req, res) => {
     try {
         const userData = await User.findByPk(req.session.user_id, {
             attributes: { exclude: ['password'] },
