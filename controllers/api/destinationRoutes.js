@@ -2,14 +2,14 @@ const router = require('express').Router();
 const { Destination, User, Trip } = require('../../models');
 
 // Route to get all destinations
-router.get('/', async (req, res) => {
-    try {
-        const destinationData = await Destination.findAll();
-        res.status(200).json(destinationData);
-    } catch (err) {
-        res.status(500).json(err);
-    }
-});
+// router.get('/', async (req, res) => {
+//     try {
+//         const destinationData = await Destination.findAll();
+//         res.status(200).json(destinationData);
+//     } catch (err) {
+//         res.status(500).json(err);
+//     }
+// });
 
 // Route to get destinations by id
 router.get('/:id', async (req, res) => {

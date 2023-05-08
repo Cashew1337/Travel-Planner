@@ -1,7 +1,8 @@
 // why is sequelize in green and not in blue?
 const sequelize = require('sequelize');
-const mongoose = require('mongoose')
+// const mongoose = require('mongoose')
 require('dotenv').config();
+// const { User } = require('../models')
 
 // grab DB string from that file
 // const conn = process.env.DB_STRING;
