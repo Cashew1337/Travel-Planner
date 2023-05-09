@@ -29,6 +29,19 @@ router.get('/', async (req, res) => {
     }
 });
 
+router.get('/destinations', async (req, res) => {
+    try {
+        const destinationData = await Destination.findAll();
+        // console.log(date, date_3);
+
+        const destinations = destinationData.map((destination) => destination.get({ plain: true }));
+
+        res.render('destinations', { destinations });
+    } catch (err) {
+        res.status(500).json(err);
+    }
+});
+
 router.get('/destination/:id', async (req, res) => {
     try {
         const destinationData = await Destination.findByPk(req.params.id, {
