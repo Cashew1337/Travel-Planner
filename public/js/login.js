@@ -15,7 +15,7 @@ loginForm.addEventListener('submit', (event) => {
   const password = document.querySelector('#password-login').value;
 
   // send email and password to the server to authenticate the user
-  fetch('/login', {
+  fetch('/api/users/login', {
     method: 'POST',
     body: JSON.stringify({ email, password }),
     headers: {
@@ -25,7 +25,7 @@ loginForm.addEventListener('submit', (event) => {
   .then(response => {
     if (response.ok) {
       // user authenticated, redirected 
-      window.location.href = '/dashboard';
+      window.location.href = '/homepage';
     } else {
       // if authentication failed, update the login error state and re-render the template
       const state = { loginError: true };
