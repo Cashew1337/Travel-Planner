@@ -15,7 +15,7 @@ loginForm.addEventListener('submit', (event) => {
   const password = document.querySelector('#password-login').value;
 
   // send email and password to the server to authenticate the user
-  fetch('/login', {
+  fetch('/api/users/login', {
     method: 'POST',
     body: JSON.stringify({ email, password }),
     headers: {
