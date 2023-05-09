@@ -109,7 +109,7 @@ router.get('/profile', withAuth, async (req, res) => {
 
         res.render('profile', {
             ...user,
-            logged_in: false
+            logged_in: true
         });
     } catch (err) {
         console.log(err)
