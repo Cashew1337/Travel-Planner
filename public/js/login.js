@@ -25,7 +25,7 @@ loginForm.addEventListener('submit', (event) => {
   .then(response => {
     if (response.ok) {
       // user authenticated, redirected 
-      window.location.href = '/dashboard';
+      window.location.href = '/homepage';
     } else {
       // if authentication failed, update the login error state and re-render the template
       const state = { loginError: true };

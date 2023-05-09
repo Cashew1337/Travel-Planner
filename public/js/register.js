@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         });
 
         // Send form data to server
-        fetch('/api/create-account', {
+        fetch('/api/users', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         .then(function(response) {
             if (response.ok) {
                 alert('Your account has been created!');
+                window.location.replace('/profile');
             } else {
                 // Show an error message
                 alert('There was an error creating your account.');
