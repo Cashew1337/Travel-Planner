@@ -1,21 +1,21 @@
 
-const loginTemplate = Handlebars.compile(document.querySelector('#login-template').innerHTML);
+// const loginTemplate = Handlebars.compile(document.querySelector('#login-template').innerHTML);
 
-// render login template 
-const initialState = { loginError: false };
-document.querySelector('#login-container').innerHTML = loginTemplate(initialState);
+// // render login template 
+// const initialState = { loginError: false };
+// document.querySelector('#login-container').innerHTML = loginTemplate(initialState);
 
 // add an event listener to login form
 const loginForm = document.querySelector('#login-form');
 
-loginForm.addEventListener('submit', (event) => {
+loginForm.addEventListener('click', (event) => {
   event.preventDefault(); // prevent the form from submitting
 
   const email = document.querySelector('#email-login').value;
   const password = document.querySelector('#password-login').value;
 
   // send email and password to the server to authenticate the user
-  fetch('/login', {
+  fetch('/api/users/login', {
     method: 'POST',
     body: JSON.stringify({ email, password }),
     headers: {
@@ -25,7 +25,7 @@ loginForm.addEventListener('submit', (event) => {
   .then(response => {
     if (response.ok) {
       // user authenticated, redirected 
-      window.location.href = '/dashboard';
+      window.location.href = '/homepage';
     } else {
       // if authentication failed, update the login error state and re-render the template
       const state = { loginError: true };
