@@ -27,12 +27,12 @@ nav ul {
     align-items: center;
 }
 
-nav ul li {
+nav ul a {
     margin: auto 20px;
     font-size: 1rem;
     font-weight: 600;
 }
-nav ul li i {
+nav ul a i {
     font-size: 1.3rem;
 }
 
