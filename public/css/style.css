@@ -58,6 +58,20 @@ nav ul li i {
     width: 100%;
 }
 
+h1{
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    margin:40px;
+    color: rgb(31, 123, 130);
+}
+
+h2{
+    display: block;
+    text-align: center;
+    color: rgb(31, 123, 130);
+}
+
 .profile-title {
     text-align: center;
     margin-top: 20px;
@@ -110,3 +124,4 @@ nav ul li i {
     background: #d0e896;
     margin: 20px auto;
   }
+
