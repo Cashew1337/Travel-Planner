@@ -1,14 +1,14 @@
 
-const loginTemplate = Handlebars.compile(document.querySelector('#login-card').innerHTML);
+const loginTemplate = Handlebars.compile(document.querySelector('#login-template').innerHTML);
 
 // render login template 
 const initialState = { loginError: false };
-document.querySelector('#login-card').innerHTML = loginTemplate(initialState);
+document.querySelector('#login-container').innerHTML = loginTemplate(initialState);
 
 // add an event listener to login form
 const loginForm = document.querySelector('#login-form');
 
-loginForm.addEventListener('submit', (event) => {
+loginForm.addEventListener('click', (event) => {
   event.preventDefault(); // prevent the form from submitting
 
   const email = document.querySelector('#email-login').value;
