@@ -31,10 +31,19 @@ router.get('/', async (req, res) => {
 
 router.get('/destinations', async (req, res) => {
     try {
-        const destinationData = await Destination.findAll();
+        const destinationData = await Destination.findAll({
+            include: [
+                {
+                    model: Trip,
+                    attributes: ['name']
+                }
+            ]
+        });
         // console.log(date, date_3);
 
         const destinations = destinationData.map((destination) => destination.get({ plain: true }));
+
+        console.log(destinations)
 
         res.render('destinations', { destinations });
     } catch (err) {
