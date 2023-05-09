@@ -1,9 +1,9 @@
 
-const loginTemplate = Handlebars.compile(document.querySelector('#login-template').innerHTML);
+const loginTemplate = Handlebars.compile(document.querySelector('#login-card').innerHTML);
 
 // render login template 
 const initialState = { loginError: false };
-document.querySelector('#login-container').innerHTML = loginTemplate(initialState);
+document.querySelector('#login-card').innerHTML = loginTemplate(initialState);
 
 // add an event listener to login form
 const loginForm = document.querySelector('#login-form');
@@ -25,11 +25,11 @@ loginForm.addEventListener('submit', (event) => {
   .then(response => {
     if (response.ok) {
       // user authenticated, redirected 
-      window.location.href = '/dashboard';
+      window.location.href = '/homepage';
     } else {
       // if authentication failed, update the login error state and re-render the template
       const state = { loginError: true };
-      document.querySelector('#login-container').innerHTML = loginTemplate(state);
+      document.querySelector('#login-card').innerHTML = loginTemplate(state);
     }
   })
   .catch(error => {
