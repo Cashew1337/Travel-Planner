@@ -21,8 +21,12 @@
                 <a href="/destinations">Destination</a>
             </ul>
             <ul>
+                {{#if logged_in}}
                 <a href="/profile"><i class="fa-regular fa-circle-user"></i></a>
                 <a href="/logout"><i id="logout-Btn" class="fa-sharp fa-solid fa-arrow-right-from-bracket"></i></a>
+                {{else}}
+        <a href="/login">login</a>
+        {{/if}}
             </ul>
         </nav>
         <main>
