@@ -11,14 +11,17 @@ const seedDatabase = async () => {
   try {
     await sequelize.sync({ force: true });
     console.log('syncing')
-    await User.bulkCreate(UserData); // insert the users data into the database
+    await User.bulkCreate(UserData, {
+      individualHooks: true,
+      returning: true,
+    }); // insert the users data into the database
     await Destination.bulkCreate(DestinationData); //insert destinations into data base
     await Trip.bulkCreate(TripData); // insert the trips data into the database 
 
-    let modifiedItin = ItineraryData.map((itin) => { 
+    let modifiedItin = ItineraryData.map((itin) => {
       itin.events = JSON.stringify(itin.events)
       return itin;
-  });
+    });
 
 
     await Itinerary.bulkCreate(modifiedItin);
