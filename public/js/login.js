@@ -34,5 +34,14 @@ loginForm.addEventListener('click', (event) => {
   })
   .catch(error => {
     // handle errors that may occur 
+    
   });
+});
+
+const signupButton = document.querySelector('#sign-btn');
+
+signupButton.addEventListener('click', (event) => {
+  event.preventDefault();
+
+  window.location.replace('/register')
 });
