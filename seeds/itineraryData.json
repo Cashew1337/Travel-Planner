@@ -238,68 +238,6 @@
     "events": [
       {
         "name": "Day 1 - Arrival and Check-in",
-        "date": "2023-07-01",
-        "time": "15:00",
-        "location": "Park Hyatt Tokyo",
-        "details": "Check-in to your hotel and relax after your journey."
-      },
-      {
-        "name": "Day 2 - Meiji Shrine and Harajuku",
-        "date": "2023-07-02",
-        "time": "09:00",
-        "location": "Meiji Shrine and Harajuku",
-        "details": "Visit the Meiji Shrine, a serene oasis in the middle of Tokyo, and then head to Harajuku to explore its trendy shops and cafes."
-      },
-      {
-        "name": "Day 3 - Tsukiji Fish Market and Asakusa",
-        "date": "2023-07-03",
-        "time": "08:00",
-        "location": "Tsukiji Fish Market and Asakusa",
-        "details": "Start your day early at the Tsukiji Fish Market, the largest wholesale fish market in the world. Then, head to Asakusa to visit the Sensoji Temple, Tokyo's oldest and most famous temple."
-      },
-      {
-        "name": "Day 4 - Tokyo Tower and Roppongi Hills",
-        "date": "2023-07-04",
-        "time": "13:00",
-        "location": "Tokyo Tower and Roppongi Hills",
-        "details": "Visit the iconic Tokyo Tower, a symbol of Tokyo's modernity, and enjoy the panoramic views of the city from its observation deck. Then, head to Roppongi Hills, a modern shopping and entertainment complex, to explore its galleries and museums."
-      },
-      {
-        "name": "Day 5 - Ueno Park and Ameyoko Market",
-        "date": "2023-07-05",
-        "time": "10:00",
-        "location": "Ueno Park and Ameyoko Market",
-        "details": "Explore Ueno Park, one of Tokyo's largest parks and home to many museums and galleries. Then, head to Ameyoko Market, a bustling market known for its food and bargains."
-      },
-      {
-        "name": "Day 6 - Shibuya and Robot Restaurant",
-        "date": "2023-07-06",
-        "time": "14:00",
-        "location": "Shibuya and Robot Restaurant",
-        "details": "Visit Shibuya, Tokyo's busiest district, known for its trendy shops, restaurants, and nightlife. In the evening, head to the famous Robot Restaurant for a unique and entertaining dining experience."
-      },
-      {
-        "name": "Day 7 - Tokyo Disneyland",
-        "date": "2023-07-07",
-        "time": "09:00",
-        "location": "Tokyo Disneyland",
-        "details": "Spend a magical day at Tokyo Disneyland, one of the most popular theme parks in Japan."
-      },
-      {
-        "name": "Day 8 - Departure",
-        "date": "2023-07-08",
-        "time": "12:00",
-        "location": "Park Hyatt Tokyo",
-        "details": "Check-out and depart for the airport."
-      }
-    ]
-  },
-  {
-    "destinationId": 2,
-    "dates": "2023-07-01 - 2023-07-07",
-    "events": [
-      {
-        "name": "Day 1 - Arrival and Check-in",
         "date": "2023-08-15",
         "time": "15:00",
         "location": "Andaz Tokyo Toranomon Hills",

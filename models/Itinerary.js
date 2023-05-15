@@ -25,7 +25,6 @@ Itinerary.init(
                 model: 'trip',
                 key: 'id'
             },
-            allowNull: false
         },
         dates: {
             type: DataTypes.STRING,

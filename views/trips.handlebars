@@ -3,21 +3,21 @@
 <head>
     <title>My Trips</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
-    <script src="my-script.js"></script>
+    {{!-- <script src="my-script.js"></script> --}}
 </head>
 <body>
 
     <h2 class="title">{{name}}</h2>
     <div id="container"></div>
 
-    <script id="template" type="text/x-handlebars-template">
+
         <div class="container">
             <div class="box">
                 <h2>Trip 1</h2>
                 <div class="grid-box">
-                    {{#each itinerary}}
+                    {{#each itineraries as |itinerary|}}
                     <div class="grid-item">
-                        <p>{{this.events}}</p>
+                        <p>{{itinerary.events}}</p>
                     </div>
                     {{/each}}
                     <h3>{{startDate}} - {{endDate}}</h3>
@@ -46,12 +46,12 @@
                 </div>
             </div>
         </div>
-    </script>
+
 
 </body>
 </html>
 
-    <script src=".public/js/trips.js"></script>
+    {{!-- <script src="/js/trips.js"></script> --}}
 
 
     
