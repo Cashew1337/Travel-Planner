@@ -1,6 +1,8 @@
 const logoutButton = document.querySelector('#logout-Btn');
 
-logoutButton.addEventListener('click', () => {
+logoutButton.addEventListener('click', (event) => {
+  event.preventDefault();
+  
   fetch('/api/users/logout', {
     method: 'POST'
   })

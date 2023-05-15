@@ -23,7 +23,10 @@ router.get('/', async (req, res) => {
         const trips = tripData.map((trip) => trip.get({ plain: true }));
         console.log(trips);
 
-        res.render('homepage', { trips });
+        res.render('homepage', {
+            trips,
+            logged_in: req.session.logged_in,
+        });
     } catch (err) {
         res.status(500).json(err);
     }
@@ -45,7 +48,10 @@ router.get('/destinations', async (req, res) => {
 
         console.log(destinations)
 
-        res.render('destinations', { destinations });
+        res.render('destinations', {
+            destinations,
+            logged_in: req.session.logged_in,
+        });
     } catch (err) {
         res.status(500).json(err);
     }
@@ -54,7 +60,7 @@ router.get('/destinations', async (req, res) => {
 router.get('/destination/:id', async (req, res) => {
     try {
         const destinationData = await Destination.findByPk(req.params.id, {
-            include:[
+            include: [
                 {
                     model: Trip,
                     attributes: ['name']
@@ -65,7 +71,8 @@ router.get('/destination/:id', async (req, res) => {
         const destination = destinationData.get({ plain: true })
 
         res.render('destination', {
-            ...destination
+            ...destination,
+            logged_in: req.session.logged_in,
         });
     } catch (err) {
         res.status(500).json(err);
