@@ -23,10 +23,10 @@
             <ul>
                 {{#if logged_in}}
                 <a href="/profile"><i class="fa-regular fa-circle-user"></i></a>
-                <a href="/logout"><i id="logout-Btn" class="fa-sharp fa-solid fa-arrow-right-from-bracket"></i></a>
+                <button id="logout-Btn" class="fa-sharp fa-solid fa-arrow-right-from-bracket"></button>
                 {{else}}
-        <a href="/login">login</a>
-        {{/if}}
+                <a href="/login">login</a>
+                {{/if}}
             </ul>
         </nav>
         <main>
@@ -37,6 +37,8 @@
 
 </body>
 
+{{#if logged_in}}
 <script src="/js/logout.js"></script>
+{{/if}}
 
 </html>
