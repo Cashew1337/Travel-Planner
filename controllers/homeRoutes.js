@@ -38,7 +38,7 @@ router.get('/destinations', async (req, res) => {
             include: [
                 {
                     model: Trip,
-                    attributes: ['name']
+                    attributes: ['name', 'id']
                 }
             ]
         });
@@ -46,7 +46,7 @@ router.get('/destinations', async (req, res) => {
 
         const destinations = destinationData.map((destination) => destination.get({ plain: true }));
 
-        console.log(destinations)
+        // console.log(destinations)
 
         res.render('destinations', {
             destinations,
@@ -95,6 +95,7 @@ router.get('/trips/:id', async (req, res) => {
         });
 
         const trips = tripData.get({ plain: true });
+        console.log(tripData);
 
         res.render('trips', {
             ...trips,
