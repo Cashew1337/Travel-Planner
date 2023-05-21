@@ -1,11 +1,11 @@
+/* 
+const loginTemplate = Handlebars.compile(document.querySelector('#login-template').innerHTML);
 
-// const loginTemplate = Handlebars.compile(document.querySelector('#login-template').innerHTML);
+// render login template 
+const initialState = { loginError: false };
+document.querySelector('#login-container').innerHTML = loginTemplate(initialState);
 
-// // render login template 
-// const initialState = { loginError: false };
-// document.querySelector('#login-container').innerHTML = loginTemplate(initialState);
-
-// add an event listener to login form
+// add an event listener to login form */
 const loginForm = document.querySelector('#login-form');
 
 loginForm.addEventListener('click', (event) => {
@@ -29,7 +29,7 @@ loginForm.addEventListener('click', (event) => {
     } else {
       // if authentication failed, update the login error state and re-render the template
       const state = { loginError: true };
-      document.querySelector('#login-container').innerHTML = loginTemplate(state);
+      document.querySelector('#login-card').innerHTML = loginTemplate(state);
     }
   })
   .catch(error => {
