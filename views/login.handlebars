@@ -28,26 +28,29 @@
       <div class="containertwo">
         <div class="login form">
           <header>Login</header>
-          <form action="#">
+          <form>
             <input id="email-login" type="text" placeholder="Enter your email">
             <input id="password-login" type="password" placeholder="Enter your password">
             <input type="button" class="button" value="Login">
           </form>
         </div>
       </div>
+    </form>  
+
+    <form class="form reg-form" id="reg-form">
       <div class="containerthree">
-        <div class="registration form">
+        <div id="regform" class="registration form">
           <header>Signup</header>
-          <form action="#">
-            <input type="text" placeholder="Enter Name">
-            <input type="text" placeholder="Enter your email">
-            <input type="password" placeholder="Create a password">
+          <form>
+            <input id="name-signup" type="text" placeholder="Enter Name">
+            <input id="email-signup" type="text" placeholder="Enter your email">
+            <input id="password-signup" type="password" placeholder="Create a password">
             <input type="button" class="button" value="Signup">
           </form>
         </div>
       </div>
-  </div>
-  </form>
+    </form>
+
     {{#if loginError}}
       <div class="alert alert-danger">Invalid email or password. Please try again.</div>
     {{/if}}
