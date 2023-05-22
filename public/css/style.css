@@ -206,3 +206,20 @@ h2{
     background-color: #2E5E4E;
   }
 
+  .grid-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: #9CB4AC;
+    border: solid;
+    border-style: double
+  }
+
+  .grid-content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: underline
+  }
+
+  .body {
+    background-color: #2E5E4E;
+  }
