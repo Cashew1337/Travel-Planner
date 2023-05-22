@@ -204,22 +204,57 @@ h2{
     justify-content: center;
     align-items: center;
     background-color: #2E5E4E;
+    padding: 30px;
   }
 
   .grid-item {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
     border-color: #9CB4AC;
     border: solid;
-    border-style: double
+    border-style: double;
+    padding: 50px;
+   
   }
 
   .grid-content {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     text-decoration: underline
+  }
+
+  .grid-p {
+    display: flex;
+    flex: wrap; 
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 2
   }
 
   .body {
     background-color: #2E5E4E;
+  }
+
+  .destination-page-name {
+    color:#9CB4AC
+  }
+
+  .destination-display {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .link-to-trip {
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+
+  .title {
+    color:#9CB4AC;
+    padding: 20px
+  }
+
+  .trip-num {
+    color:#9CB4AC
   }
