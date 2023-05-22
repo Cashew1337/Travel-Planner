@@ -38,10 +38,10 @@ loginForm.addEventListener('click', (event) => {
   });
 });
 
-const signupButton = document.querySelector('#sign-btn');
+// const signupButton = document.querySelector('#sign-btn');
 
-signupButton.addEventListener('click', (event) => {
-  event.preventDefault();
+// signupButton.addEventListener('click', (event) => {
+//   event.preventDefault();
 
-  window.location.replace('/register')
-});
+//   window.location.replace('/register')
+// });
