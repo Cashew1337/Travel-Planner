@@ -1,10 +1,10 @@
 <meta http-equiv="Content-Type" content="application/javascript">
 <div class="row justify-space-between-md">
-  {{!-- <div class="login-card">
+  <div class="login-card">
     <h2 class="page-title">Login</h2>
     <form class="form login-form" id="login-form">
       <div class="form-group">
-        <label for="email-login">E-mail:</label>
+        <label for="email-login">Email:</label>
         <input class="form-input" type="text" id="email-login" />
       </div>
      
@@ -19,38 +19,7 @@
       <div class="form-group">
         <button class="btn btn-secondary" type="button" id="sign-btn">Signup</button>
       </div>
-    </form> --}}
-
-
-  <div class="login-card">
-    <h2 class="page-title">Login</h2>
-    <form class="form login-form" id="login-form">
-      <div class="containertwo">
-        <div class="login form">
-          <header>Login</header>
-          <form>
-            <input id="email-login" type="text" placeholder="Enter your email">
-            <input id="password-login" type="password" placeholder="Enter your password">
-            <input type="button" class="button" value="Login">
-          </form>
-        </div>
-      </div>
-    </form>  
-
-    <form class="form reg-form" id="reg-form">
-      <div class="containerthree">
-        <div id="regform" class="registration form">
-          <header>Signup</header>
-          <form>
-            <input id="name-signup" type="text" placeholder="Enter Name">
-            <input id="email-signup" type="text" placeholder="Enter your email">
-            <input id="password-signup" type="password" placeholder="Create a password">
-            <input type="button" class="button" value="Signup">
-          </form>
-        </div>
-      </div>
     </form>
-
     {{#if loginError}}
       <div class="alert alert-danger">Invalid email or password. Please try again.</div>
     {{/if}}

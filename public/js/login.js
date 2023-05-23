@@ -38,38 +38,10 @@ loginForm.addEventListener('click', (event) => {
   });
 });
 
-const regForm = document.querySelector('#reg-form');
+const signupButton = document.querySelector('#sign-btn');
 
-regForm.addEventListener('click', (event) => {
+signupButton.addEventListener('click', (event) => {
   event.preventDefault();
 
-  const name = document.querySelector('#name-signup').value.trim();
-  const email = document.querySelector('#email-signup').value.trim();
-  const password = document.querySelector('#password-signup').value.trim();
-
-  if (name && email && password) {
-    fetch('/api/users', {
-      method: 'POST',
-      body: JSON.stringify({ name, email, password }),
-      headers: { 'Content-Type': 'application/json' },
-    })
-    
-    .then((response) => {
-      if (response.ok) {
-        window.location.href('/profile');
-      } else {
-        alert('There has been a problem creating your account');
-      }
-    })
-   
-  }
+  window.location.replace('/register')
 });
-
-
-// const signupButton = document.querySelector('#sign-btn');
-
-// signupButton.addEventListener('click', (event) => {
-//   event.preventDefault();
-
-//   window.location.replace('/register')
-// });
