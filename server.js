@@ -3,6 +3,7 @@ const path = require('path');
 const express = require('express');
 const session = require('express-session');
 const helmet = require("helmet");
+const helpers = require("./utils/helper");
 
 const routes = require('./controllers');
 
@@ -13,7 +14,7 @@ const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 
-const hbs = exphbs.create();
+const hbs = exphbs.create({ helpers });
 
 
 const app = express();

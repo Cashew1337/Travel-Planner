@@ -11,12 +11,6 @@
     background-color: #2E5E4E;
 } 
 
-.upcoming {
-  width: 100vw;
-  height: 100vh;
-  background-color: #2E5E4E;
-  color:#9CB4AC
-} 
 nav {
     width: 100%;
     height: 60px;
@@ -152,12 +146,12 @@ h2{
 
   .intro {
   
-    padding: 50px;
+    margin: 0 auto; 
+    padding: 50px; 
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row wrap; 
     justify-content: center;
     align-items: center;
-    margin: 0 0 20px 0;
     flex: 4;
     max-width: 50%;
     border: 3px solid var(--dark);
@@ -174,6 +168,96 @@ h2{
 
   .box {
     color:#9CB4AC 
+  }
+
+
+  .upcoming {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E5E4E;
+    color: #9CB4AC;
+  }
+  
+  .upcoming a {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #2E5E4E;
+  }
+  
+  .upcoming img {
+    max-width: 50%;
+    height: auto;
+    background-color: #2E5E4E;
+  }
+  
+  .grid-container img {
+    max-width: 50%;
+    height: auto;
+  }
+
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E5E4E;
+    padding: 30px;
+  }
+
+  .grid-item {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-color: #9CB4AC;
+    border: solid;
+    border-style: double;
+    padding: 50px;
+   
+  }
+
+  .grid-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline
+  }
+
+  .grid-p {
+    display: flex;
+    flex: wrap; 
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 2
+  }
+
+  .body {
+    background-color: #2E5E4E;
+  }
+
+  .destination-page-name {
+    color:#9CB4AC
+  }
+
+  .destination-display {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .link-to-trip {
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+
+  .title {
+    color:#9CB4AC;
+    padding: 20px
+  }
+
+  .trip-num {
+    color:#9CB4AC
   }
 
   .containertwo{
@@ -238,6 +322,8 @@ h2{
      cursor: pointer;
      transition: 0.4s;
     }
+
     .form input.button:hover{
      background: #006653;
     }
+
