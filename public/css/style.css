@@ -122,11 +122,12 @@ h2{
     padding: 10px 30px;
     font-size: 18px;
     border: none;
-    background: #d0e896;
+    background: #93A7AA ;;
     margin: 20px auto;
+   
   }
 
-  .login-form {
+/*   .login-form {
   
     padding: 50px;
     display: flex;
@@ -142,7 +143,7 @@ h2{
     border-width: thick;
     background-color: #AFBEA2;
     color: var(--light);
-  } 
+  }  */
 
   .intro {
   
@@ -158,6 +159,7 @@ h2{
     border-radius: var(--border-radius);
     border-style: double;
     border-width: thick;
+    border-color: #93A7AA ;
     background-color: #AFBEA2;
     color: var(--light);
   } 
@@ -206,6 +208,7 @@ h2{
     align-items: center;
     background-color: #2E5E4E;
     padding: 30px;
+    color:#9CB4AC
   }
 
   .grid-item {
@@ -327,3 +330,6 @@ h2{
      background: #006653;
     }
 
+.page-bottom {
+  background-color: #006653;
+}
