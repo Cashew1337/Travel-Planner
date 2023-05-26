@@ -8,11 +8,12 @@
     </div>
 
     {{#each trips as |trip|}}
+    {{log tripPic destination}}
     <div class="box">
         <div class="destination-card">
-            <p class="destination-display">{{trip.name}}</p>
+           {{!--  <p class="destination-display">{{trip.name}}</p> --}}
             <a href="/trips/{{trip.id}}" class="link-to-trip">
-            <{{imageUrl}}>
+            <img src="{{destination.imageUrl}}">
             </a>
 
         </div>

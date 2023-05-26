@@ -1,8 +1,14 @@
+
 <h1 class="profile-title">Profile</h1>
 
         <div class="profile-img-area">
           <img src="" alt="" />
-        </div>
+          </div>
+            <h1>Upload Profile Picture</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+        <input type="file" name="profilePicture" accept="image/*" required>
+        <button type="submit">Upload</button>
+    </form>
 
         <div class="input-area">
           <div class="input-wrapper">
@@ -28,4 +34,7 @@
           </div>
 
           <button class="save-btn">Save</button>
+      
         </div>
+
+        <script src="/js/profile-pic.js"></script>
