@@ -142,7 +142,7 @@ router.get('/register', (req, res) => {
         return;
     }
 
-    res.render('register');
+    res.render('login');
 });
 
 module.exports = router;
