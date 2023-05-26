@@ -22,10 +22,10 @@
             </ul>
             <ul>
                 {{#if logged_in}}
-                <a href="/profile"><i class="fa-regular fa-circle-user"></i></a>
-                <button id="logout-Btn" class="fa-sharp fa-solid fa-arrow-right-from-bracket"></button>
+                <a href="/profile"></a>
+                <a href id="logout-Btn" id="logout">Logout</a>
                 {{else}}
-                <a href="/login">login</a>
+                <a href="/login">Login</a>
                 {{/if}}
             </ul>
         </nav>
