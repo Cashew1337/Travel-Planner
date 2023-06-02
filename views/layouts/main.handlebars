@@ -14,6 +14,7 @@
 </head>
 
 <body>
+
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
@@ -52,6 +53,27 @@
       {{{ body }}}
     </main>
   </div>
+=======
+    <div class="container">
+        <nav>
+            <ul>
+                <a href="/">Home</a>
+                <a href="/destinations">Destination</a>
+            </ul>
+            <ul>
+                {{#if logged_in}}
+                <a href="/profile"></a>
+                <a href id="logout-Btn" id="logout">Logout</a>
+                {{else}}
+                <a href="/login">Login</a>
+                {{/if}}
+            </ul>
+        </nav>
+        <main>
+            {{{ body }}}
+        </main>
+    </div>
+
 
   <footer class="footer">
     <p>Created with Vscode, Launched with Heroku</p>

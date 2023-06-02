@@ -1,9 +1,4 @@
-/* 
-const loginTemplate = Handlebars.compile(document.querySelector('#login-template').innerHTML);
 
-// render login template 
-const initialState = { loginError: false };
-document.querySelector('#login-container').innerHTML = loginTemplate(initialState);
 
 // add an event listener to login form */
 const loginForm = document.querySelector('#login-form');
@@ -56,7 +51,7 @@ regForm.addEventListener('click', (event) => {
     
     .then((response) => {
       if (response.ok) {
-        window.location.href('/profile');
+        window.location.replace('/profile');
       } else {
         alert('There has been a problem creating your account');
       }
@@ -64,12 +59,3 @@ regForm.addEventListener('click', (event) => {
    
   }
 });
-
-
-// const signupButton = document.querySelector('#sign-btn');
-
-// signupButton.addEventListener('click', (event) => {
-//   event.preventDefault();
-
-//   window.location.replace('/register')
-// });
