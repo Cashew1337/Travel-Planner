@@ -14,44 +14,25 @@
 </head>
 
 <body>
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/">Day Tryppers</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/destinations">Destination</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav ms-auto">
-            {{#if logged_in}}
-            <li class="nav-item">
-              <a class="nav-link" href="/profile"><i class="fa-regular fa-circle-user"></i></a>
-            </li>
-            <li class="nav-item">
-              <button id="logout-Btn" class="fa-sharp fa-solid fa-arrow-right-from-bracket"></button>
-            </li>
-            {{else}}
-            <li class="nav-item">
-              <a class="nav-link" href="/login">Login</a>
-            </li>
-            {{/if}}
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <main>
-      {{{ body }}}
-    </main>
-  </div>
+    <div class="container">
+        <nav>
+            <ul>
+                <a href="/">Home</a>
+                <a href="/destinations">Destination</a>
+            </ul>
+            <ul>
+                {{#if logged_in}}
+                <a href="/profile"><i class="fa-regular fa-circle-user"></i></a>
+                <button id="logout-Btn" class="fa-sharp fa-solid fa-arrow-right-from-bracket"></button>
+                {{else}}
+                <a href="/login">login</a>
+                {{/if}}
+            </ul>
+        </nav>
+        <main>
+            {{{ body }}}
+        </main>
+    </div>
 
   <footer class="footer" style="padding: 30px; margin-top: 30px;">
     <p class="footer-text" style="display: flex; justify-content: center;" >Created with Vscode, Launched with Heroku</p>
