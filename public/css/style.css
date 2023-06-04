@@ -127,24 +127,6 @@ h2{
    
   }
 
-/*   .login-form {
-  
-    padding: 50px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 0 0 20px 0;
-    flex: 4;
-    max-width: 50%;
-    border: 3px solid var(--dark);
-    border-radius: var(--border-radius);
-    border-style: double;
-    border-width: thick;
-    background-color: #AFBEA2;
-    color: var(--light);
-  }  */
-
   .intro {
   
     margin: 0 auto; 
@@ -332,4 +314,9 @@ h2{
 
 .page-bottom {
   background-color: #006653;
+}
+
+.footer {
+  text-align: center;
+  color:#9CB4AC;
 }
