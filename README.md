@@ -17,13 +17,13 @@ Express - Node framework used to manage web servers and handle HTTP requests and
 
 Sequelize - ORM library for Node that allows developers to interact with their databases
 
-Passport.js - authentication middleware for Node 
+Helmet - Node.js package that offers middleware capabilities to secure HTTP headers in HTTP responses
 
 ## Contributers 
 
 Matthew Caschetto 
 Joshua Clarke
-Roxy Osario 
+Roxy Osorio 
 Rama Santayana
 Isaac Stofko
 

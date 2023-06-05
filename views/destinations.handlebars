@@ -6,14 +6,14 @@
             <a href="/destination/{{id}}">
         </div>
     </div>
+    {{log destination}}
 
     {{#each trips as |trip|}}
-    {{log tripPic destination}}
     <div class="box">
         <div class="destination-card">
            {{!--  <p class="destination-display">{{trip.name}}</p> --}}
             <a href="/trips/{{trip.id}}" class="link-to-trip">
-            <img src="{{destination.imageUrl}}">
+             <img src="{{destination.imageUrl}}" style="max-width: 200px; max-height: 200px;">
             </a>
 
         </div>

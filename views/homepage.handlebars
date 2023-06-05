@@ -11,9 +11,10 @@ Are you yearning to embark on a journey, but finding it challenging to rally you
 <section class="upcoming">
     <h1>Upcoming Trips</h1>
     {{#each trips as |trip|}}
+    {{log trip}}
     <h3>{{name}}</h3>
     <a href="./destination/{{trip.destinationId}}">
-         <img src="{{trip.imageUrl}}" alt="Destination image" style="width: 600px; height: 450px;">
+         <img src="{{trip.destination.imageUrl}}" alt="Destination image" style="width: 600px; height: 450px;">
     </a>
     {{/each}}
     

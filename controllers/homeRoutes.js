@@ -16,7 +16,8 @@ router.get('/', async (req, res) => {
                 startDate: {
                     [Op.between]: [date.toISOString().split('T')[0], date_3.toISOString().split('T')[0]]
                 }
-            }
+            },
+            include: [{ model: Destination }]
         });
         // console.log(date, date_3);
 
