@@ -1,20 +1,23 @@
 <section class="hero">
-    <h1>Day Tryppers</h1>
+    <h1 class="text">Day Tryppers</h1>
      </section>
 
-<section class="intro"><h2><i>New Places, New Friends, New Experiences!</i><br><br>
+<section class="intro">
+    <h2 class="text"> New Places, New Friends, New Experiences!</h2>
+    <div class="intro-container">
     <p>
 Are you yearning to embark on a journey, but finding it challenging to rally your friends for a group trip? Look no further, as DayTryppers is at your service! We specialize in crafting captivating travel packages tailored for solo adventurers who are eager to discover the world and forge meaningful connections along their path. By joining our community of fellow solo travelers, you'll have the opportunity to explore vibrant cities, indulge in delectable cuisines, and embrace the wonders that life has in store. Prepare yourself for an unforgettable experience by joining us on this extraordinary adventure!</p>
-    <br>
-</h2></section>
+</div>
+   
+</section>
 
-<section class="upcoming">
-    <h1>Upcoming Trips</h1>
+<section class="center-block">
+    <h1 class="text">Upcoming Trips</h1>
     {{#each trips as |trip|}}
     {{log trip}}
-    <h3>{{name}}</h3>
+    <h3 class="text">{{name}}</h3>
     <a href="./destination/{{trip.destinationId}}">
-         <img src="{{trip.destination.imageUrl}}" alt="Destination image" style="width: 600px; height: 450px;">
+         <img src="{{trip.destination.imageUrl}}" alt="Destination image" style="width:400px; height: 450px;">
     </a>
     {{/each}}
     
