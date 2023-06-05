@@ -49,11 +49,13 @@
  display: flex;
  align-items: center;
  justify-content: center;
-margin-left: 70px;
-margin-right: 70px;
+ margin-left: 70px;
+ margin-right: 70px;
 }
+
 .custom-bg-color {
-  background-color: #80ab9d;
+  border: solid;
+  border-color: #80ab9d;
 }
 
 .intro-container {
@@ -84,4 +86,32 @@ margin-right: 70px;
 }
 .reg-form {
   margin-bottom: 200px;
+}
+
+.profile-input {
+  margin-top: 20px; 
+}
+
+.upload-header {
+  margin-bottom: 25px;
+}
+
+.profile-body {
+  border: double; 
+  padding: 34px;
+  border-color: #80ab9d;
+  border-radius: 25px;
+}
+
+.navbar {
+  border: double;
+  border-color:#80ab9d;
+  margin-top: 20px; 
+}
+
+.home-img {
+  border: solid; 
+  border-width: .5ch;
+  border-color: #2E5E4E;
+  padding: 20px
 }

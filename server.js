@@ -4,6 +4,7 @@ const express = require('express');
 const session = require('express-session');
 const helmet = require("helmet");
 const helpers = require("./utils/helper");
+const multer = require('multer');
 
 const routes = require('./controllers');
 
@@ -18,6 +19,7 @@ const hbs = exphbs.create({ helpers });
 
 
 const app = express();
+const upload = multer({ dest: 'uploads/' }); 
 const PORT = process.env.PORT || 3001;
 
 
@@ -53,6 +55,18 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(routes);
 
+//endpoint for profil pic 
+app.post('/upload', isAuthenticated, upload.single('profilePicture'), (req, res) => {
+  res.send('Profile picture uploaded successfully');
+});
+// Middleware to check if the user is authenticated
+function isAuthenticated(req, res, next) {
+  if (req.session && req.session.userId) {
+    next();
+  } else {
+    res.status(401).send('Unauthorized');
+  }
+}
 
 sequelize.sync({ force: false }).then(() => { app.listen(PORT, () => 
     console.log(`Code Name's Website is Working! ${PORT}`));
