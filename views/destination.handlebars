@@ -13,9 +13,9 @@
     {{#each trips as |trip|}}
     <div class="box">
         <div class="card">
-            <h3>{{trip.name}}</h3>
-             <img src="{{trip.imageUrl}}" alt="{{trip.name}}">
+            <a href="/trips/{{trip.imageUrl}}" class="link-to-trip">
+             <img src="{{destination.imageUrl}}" alt="{{trip.name}}">
         </div>
         {{/each}}
 
-        <script src="/js/destination.js"></script>
+     {{!--    <script src="/js/destination.js"></script> --}}

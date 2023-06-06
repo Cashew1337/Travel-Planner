@@ -5,7 +5,8 @@
         "endDate": "2023-07-07",
         "description": "Experience the city of love and light while enjoying the best of food and culture this famed city has to offer",
         "userId": 1,
-        "destinationId": 1
+        "destinationId": 1,
+        "imageUrl": "./assets/paris2.jpg"
     },
     {
         "name": "Tokyo Trip",
@@ -13,7 +14,9 @@
         "endDate": "2023-08-22",
         "description": "Experience the pulsing nightlife, haute cuisine, and electrifying street style of Tokyo",
         "userId": 2,
-        "destinationId": 2
+        "destinationId": 2,
+        "imageUrl": "./assets/tokyo.jpg"
+
     },
     {
         "name": "Sydney Trip",
