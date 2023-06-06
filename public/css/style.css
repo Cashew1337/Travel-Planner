@@ -99,6 +99,14 @@
   border-color: #2A2F33
 }
 
+.img-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+
 /*profile styling*/
 .login-form {
   margin-top: 50px;
