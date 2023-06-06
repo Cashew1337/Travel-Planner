@@ -30,6 +30,9 @@
 .destination-page-name {
   font-size: 20px;
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .destination-card {
@@ -53,7 +56,11 @@
   border-radius: 20px;
 }
 
-
+.image-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 /*homepage styling*/
