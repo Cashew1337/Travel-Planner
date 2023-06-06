@@ -10,12 +10,14 @@
 
 /*destinations styling*/
 .grid-container {
+
+
   /* display: grid;
   grid-column-end: span 3; */
  
   display: flex;
   flex-wrap: wrap;  
-  justify-content: space-around; 
+  justify-content: space-around;  */
 /*   flex-flow: column wrap ;  */
 
 }
