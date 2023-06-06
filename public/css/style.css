@@ -146,5 +146,15 @@
   border-radius: 25px;
 }
 
+.footer {
+  padding: 30px;
+  margin-top: 60px;
+}
+
+.footer .footer-text {
+  display: flex;
+  justify-content: center;
+}
+
 
 
