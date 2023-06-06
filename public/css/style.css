@@ -18,11 +18,13 @@
 .box {
   padding: 20px;
   background-color: #f2f2f2;
+  border-radius: 20px;
 }
 
 .card {
   border: 1px solid #ccc;
   padding: 20px;
+  border-radius: 20px;
 }
 
 .destination-page-name {
@@ -33,6 +35,7 @@
 .destination-card {
   border: 1px solid #ccc;
   padding: 10px;
+  border-radius: 20px;
 }
 
 .link-to-trip {
@@ -43,6 +46,11 @@
 .list-img {
   max-width: 100%;
   max-height: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  border-radius: 20px;
 }
 
 
