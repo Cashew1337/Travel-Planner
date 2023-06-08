@@ -1,4 +1,4 @@
-// Function to handle form submission
+/*  // Function to handle form submission
 function handleFormSubmit(event) {
   event.preventDefault();
 
@@ -11,7 +11,7 @@ function handleFormSubmit(event) {
   })
     .then(response => response.json())
     .then(data => {
-      window.location.href = '/views/profile';
+      window.location.href = '/views/profile-page';
     })
     .catch(error => {
       console.error(error);
@@ -19,5 +19,9 @@ function handleFormSubmit(event) {
 }
 
 // Attach event listener to the form submission
+function waitDOM() {
 const profileForm = document.getElementById('input-area');
 profileForm.addEventListener('submit', handleFormSubmit);
+}
+ 
+document.addEventListener('DOMContentLoaded', waitDOM); */

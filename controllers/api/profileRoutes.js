@@ -1,9 +1,12 @@
 const router = require('express').Router();
-const http = require('http');
 const formidable = require('formidable');
 const fs = require('fs');
+const bodyParser = rewquore('body-parser');
 
-const app = express();
+const Profile = require('../../models/Profile'); 
+
+router.use(bodyParser.urlencoded({ extended: false }));
+router.use(bodyParser.json());
 
 const server = http.createServer((req, res) => {
   if (req.url === '/upload' && req.method.toLowerCase() === 'post') {
@@ -19,7 +22,6 @@ const server = http.createServer((req, res) => {
         res.end('Internal Server Error');
         return;
       }
-
      
       const file = files.profilePicture;
 
@@ -52,7 +54,6 @@ app.post('/upload', (req, res) => {
     // Set the directory to save uploaded files
     form.uploadDir = 'uploads/';
   
-    // Parse the form data
     form.parse(req, (err, fields, files) => {
       if (err) {
         // Handle any error 
@@ -79,5 +80,32 @@ app.post('/upload', (req, res) => {
   });
   
 
+  app.post('/save-profile', (req, res) => {
+    // Extract the form data from the request body
+    const formData = req.body;
 
-  module.exports = router;
+    if (!formData.firstName || !formData.lastName || !formData.email || !formData.phone || ! formData.address) {
+      return res.status(400).json({ error: "required fields are missing"});
+    } 
+
+    const profile = new Profile ({ 
+      firstname: formData.firstName,
+      lastName: formData.lastName,
+      email: formData.enail,
+      phone: formData.phone,
+      address: formData.address
+    });
+    
+    profile.save() 
+    .then(() => {
+      res.json({ message: 'Profile saved successfully' });
+    })
+  
+  .catch((error) => {
+    console.error(error);
+    res.status(500).json({ error: 'Failed to save the profile' });
+  });
+
+});
+
+  module.exports = router;  
