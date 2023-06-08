@@ -1,0 +1,21 @@
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// 2. Include any default variable overrides here
+
+// 3. Customize colors 
+$primary: #2E5E4E;
+$secondary: #93A7AA; 
+// Update the values of other color variables as needed
+
+// 4. Include remainder of required Bootstrap stylesheets
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/variables-dark";
+@import "../../node_modules/bootstrap/scss/maps";
+
+// 5. Include any optional Bootstrap components as you like
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/images";
+@import "../../node_modules/bootstrap/scss/containers";
