@@ -1,13 +1,7 @@
-<div class="title-wrap">
-    <div class="wrap">
-    <div class="hero custom-bg-color">
-    <h1 class="title-text">Day Tryppers</h1>
-    </div>
-</div>
-</div>
 
 <section class="intro">
-    <h2 class="text"> New Places, New Friends, New Experiences!</h2>
+    {{!-- <h2 class="text"> New Places, New Friends, New Experiences!</h2> --}}
+    <h1 class="text">Day Tryppers</h1>
     <div class="intro-container">
         <p>
             Are you yearning to embark on a journey, but finding it challenging to rally your friends for a group trip?
@@ -18,17 +12,23 @@
             yourself for an unforgettable experience by joining us on this extraordinary adventure!</p>
     </div>
 
-</section>
+<img class="hard-coded" src="./assets/india.jpg">
 
-<section class="center-block custom-bg-color">
+</section>
+<div class="text-wrap">
+
+</div>
+ <section class="center-block custom-bg-color"> 
     <h1 class="text">Upcoming Trips</h1>
     {{#each trips as |trip|}}
     {{log trip}}
+     <div class="img-wrap">
     <h3 class="text">{{name}}</h3>
     <a href="./trips/{{trip.destinationId}}">
-        <div class="img-wrap">
+       <div class="extra-wrap">
             <img class="home-img" src="{{trip.destination.imageUrl}}" alt="Destination image"
                 style="width:375px; height: 450px;">
+                </div>
         </div>
     </a>
     {{/each}}
