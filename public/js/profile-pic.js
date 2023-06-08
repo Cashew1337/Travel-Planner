@@ -1,3 +1,10 @@
+let profilePic = document.getElementById("profile-pic");
+let inputFile = document.getElementById("input-file");
+
+inputFile.onchange = function () {
+profilePic.src = URL.createObjectURL(inputFile.files[0]);
+}
+
 // Function to handle form submission
 function handleFormSubmit(event) {
     event.preventDefault();
