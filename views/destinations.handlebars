@@ -1,30 +1,29 @@
+<div class="grid-container">
+    {{#each destinations as |destination|}}
+    <div class="grid-box">
+        <div class="box">
+            <div class="card">
+                <h2 class="destination-page-name">{{name}}</h2>
+                <a href="/destination/{{id}}">
 
+                    {{log destination}}
 
- {{#each destinations as |destination|}}
-<div class="grid-container"> 
-    <div class="box">
-        <div class="card">
-       <h2 class="destination-page-name">{{name}}</h2> 
-            <a href="/destination/{{id}}">
-       
-    {{log destination}} 
+                    {{#each trips as |trip|}}
+                    <div class="box">
+                        <div class="destination-card">
 
-    {{#each trips as |trip|}}
-    <div class="box">
-        <div class="destination-card">
-         
-            <a href="/trips/{{trip.id}}" class="link-to-trip">
-             <div class="image-wrap">
-             <img class="list-img" src="{{destination.imageUrl}}" style="max-width: 200px; max-height: 200px;"></div>
-            </a>
-             </div>
+                            <a href="/trips/{{trip.id}}" class="link-to-trip">
+                                <div class="image-wrap">
+                                    <img class="list-img" src="{{destination.imageUrl}}"
+                                        style="max-width: 200px; max-height: 200px;">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+            </div>
+            {{/each}}
+        </div>
+        {{/each}}
     </div>
-
-        </div>
-        {{/each}}
-        </div>
-        {{/each}}
-     </div> 
-
-
-
+</div>

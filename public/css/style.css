@@ -1,3 +1,7 @@
+body {
+  background: linear-gradient(rgb(221, 216, 209), rgb(179, 189, 169), rgb(138, 163, 130), rgb(97, 137, 93), rgb(55, 111, 57));
+}
+
 .navbar {
   border: double;
   border-color:#80ab9d;
