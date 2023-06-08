@@ -277,3 +277,8 @@ body{
   .form input.button:hover{
    background: #006653;
   }
+
+  h1{
+    font-size:80px;
+    font-weight:700;
+  }
