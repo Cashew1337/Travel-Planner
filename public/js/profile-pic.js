@@ -23,4 +23,11 @@ function handleFormSubmit(event) {
   // Attach event listener to the form submission
   const uploadForm = document.getElementById('uploadForm');
   uploadForm.addEventListener('submit', handleFormSubmit);
+
+let profilePic = document.getElementById("profile-pic");
+let inputFile = document.getElementById("input-file");
+
+inputFile.onchange = function () {
+profilePic.src = URL.createObjectURL(inputFile.files[0]);
+}
   
