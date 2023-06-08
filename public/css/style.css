@@ -148,6 +148,8 @@ body{
   padding: 34px;
   border-color: #80ab9d;
   border-radius: 25px;
+  text-align: center;
+  align-items: center;
 }
 
 .footer {
@@ -168,6 +170,7 @@ body{
   align-items: center;
   justify-content: center;
   border-radius: 25px;
+  margin: auto;
   
 }
 
@@ -180,6 +183,7 @@ body{
   justify-content: center;
   align-items: center;
   color: #333;
+  margin: auto;
   
 }
 
@@ -202,8 +206,9 @@ body{
   cursor: pointer;
 }
 
-input{
-  /* display: none; */
+#profilelabel:hover {
+  background-color: #2A2F33;
+  border-color: #2A2F33
 }
 
 .containertwo{
