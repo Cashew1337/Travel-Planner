@@ -1,3 +1,7 @@
+body{
+  background-image: linear-gradient(rgb(201,234,237), rgb(204,90,55));
+}
+
 .navbar {
   border: double;
   border-color:#80ab9d;
@@ -172,6 +176,8 @@
   padding: 34px;
   border-color: #80ab9d;
   border-radius: 25px;
+  text-align: center;
+  align-items: center;
 }
 
 .footer {
@@ -184,5 +190,123 @@
   justify-content: center;
 }
 
+.profile{
+  width: 50%;
+  height: 50vh;
+  background: #d1d1d1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  margin: auto;
+  
+}
 
+.profilecard{
+  width: 400px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  margin: auto;
+  
+}
 
+.profilecard img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+#profilelabel{
+  display:block;
+  width:200px;
+  background: #e3362c;
+  color: #fff;
+  padding: 12px;
+  margin: 10px auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#profilelabel:hover {
+  background-color: #2A2F33;
+  border-color: #2A2F33
+}
+
+.containertwo{
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%,-50%);
+  max-width: 430px;
+  width: 100%;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  }
+
+  .containerthree{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    }
+  
+  .container .form{
+  padding: 2rem;
+  }
+  .form header{
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  }
+   .form input{
+    height: 60px;
+    width: 100%;
+    padding: 0 15px;
+    font-size: 17px;
+    margin-bottom: 1.3rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+   }
+   .form input:focus{
+    box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+   }
+  .form a{
+   font-size: 16px;
+   color: #009579;
+   text-decoration: none;
+  }
+
+  .form input.button{
+   color: #fff;
+   background: #009579;
+   font-size: 1.2rem;
+   font-weight: 500;
+   letter-spacing: 1px;
+   margin-top: 1.7rem;
+   cursor: pointer;
+   transition: 0.4s;
+  }
+
+  .form input.button:hover{
+   background: #006653;
+  }
+
+  h1{
+    font-size:80px;
+    font-weight:700;
+  }

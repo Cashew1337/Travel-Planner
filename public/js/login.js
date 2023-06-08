@@ -1,7 +1,7 @@
-
-
 // add an event listener to login form */
 const loginForm = document.querySelector('#login-form');
+const loginButton = document.querySelector('#loginButton');
+const regButton = document.querySelector('#reg-button');
 
 loginForm.addEventListener('click', (event) => {
   event.preventDefault(); // prevent the form from submitting
@@ -59,3 +59,17 @@ regForm.addEventListener('click', (event) => {
    
   }
 });
+
+// enter key function
+loginForm.addEventListener('keypress', function(event) {
+  if (event.key === 'Enter') {
+    loginButton.click();
+  }
+});
+
+regForm.addEventListener('keypress', function(event) {
+  if (event.key === 'Enter') {
+    regButton.click();
+  }
+});
+

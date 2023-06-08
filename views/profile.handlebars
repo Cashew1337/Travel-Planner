@@ -1,15 +1,19 @@
 <body>
 <section class="profile-body">
-<h1 class="profile-title">Profile</h1>
 
-        <div class="profile-img-area">
-          <img src="" alt="" />
-          </div>
-            <h1 class="upload-header">Upload Profile Picture</h1>
-    <form id="uploadForm" enctype="multipart/form-data">
+    {{!-- <form id="uploadForm" enctype="multipart/form-data">
         <input type="file" name="profilePicture" accept="image/*" required>
         <button class="btn btn-primary custom-btn" type="submit">Upload</button>
-    </form>
+    </form> --}}
+
+<div class="profile">
+  <div class="profilecard">
+    <h2>My Profile</h2>
+    <img src="assets/profilePicture.jpeg" id="profile-pic"/>
+    <label id="profilelabel" for="input-file">Update Image</label>
+    <input style="display:none" type="file" accept="image/jpeg, image/png, image/jpg" id="input-file"/>
+  </div>
+</div>
 
         <form id="input-area">
 

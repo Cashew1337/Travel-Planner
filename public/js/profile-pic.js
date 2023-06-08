@@ -1,7 +1,14 @@
-// Function to handle form submission for profile pic 
-// function handlePicSubmit(event) {
-//     event.preventDefault();
-  
+let profilePic = document.getElementById("profile-pic");
+let inputFile = document.getElementById("input-file");
+
+inputFile.onchange = function () {
+profilePic.src = URL.createObjectURL(inputFile.files[0]);
+}
+
+// Function to handle form submission
+function handleFormSubmit(event) {
+    event.preventDefault();
+
 //     const form = document.getElementById('uploadForm');
 //     const formData = new FormData(form);
   
