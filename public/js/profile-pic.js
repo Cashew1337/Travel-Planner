@@ -6,8 +6,8 @@ profilePic.src = URL.createObjectURL(inputFile.files[0]);
 }
 
 // Function to handle form submission
-function handleFormSubmit(event) {
-    event.preventDefault();
+// function handleFormSubmit(event) {
+//     event.preventDefault();
 
 //     const form = document.getElementById('uploadForm');
 //     const formData = new FormData(form);
@@ -60,7 +60,6 @@ function handleFormSubmit(event) {
 }
 
 let form=document.querySelector('#input-area')
-console.log(form)
 form.addEventListener('submit',handleFormSubmit)
 
 // Attach event listener to the form submission

@@ -111,7 +111,7 @@ router.get('/trips/:id', async (req, res) => {
 
 router.get('/profile', withAuth, async (req, res) => {
     try {
-        const userData = await User.find({id:req.session.user_id}, {
+        const userData = await User.findOne({id:req.session.user_id}, {
             attributes: { exclude: ['password'] },
             include: [{ model: Trip }],
         });
