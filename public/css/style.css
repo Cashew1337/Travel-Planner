@@ -12,6 +12,10 @@ body{
   margin-bottom: 50px;
 }
 
+#error{
+  text-align: center;
+  color:red;
+}
 /*destinations styling*/
 .grid-container {
 
