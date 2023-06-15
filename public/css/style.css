@@ -11,7 +11,10 @@ body{
   padding-right: 50px; 
   margin-bottom: 50px;
 }
-
+.footer-link{
+  color:#000;
+  text-decoration: none;
+}
 #error{
   text-align: center;
   color:red;
