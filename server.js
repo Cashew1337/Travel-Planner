@@ -61,7 +61,7 @@ app.use(function (req, res, next) {
 });
 app.use(routes);
 
-//endpoint for profil pic 
+//endpoint for profile pic 
 app.post('/upload', isAuthenticated, upload.single('profilePicture'), (req, res) => {
   console.log('test 2');
   res.send('Profile picture uploaded successfully');
@@ -74,7 +74,8 @@ function isAuthenticated(req, res, next) {
   } else {
     res.status(401).send('Unauthorized');
   }
-}
+};
+
 
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () =>

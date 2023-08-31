@@ -1,9 +1,9 @@
-
-
 // add an event listener to login form */
 const loginForm = document.querySelector('#login-form');
+const loginButton = document.querySelector('#loginButton');
+const regButton = document.querySelector('#reg-button');
 
-loginForm.addEventListener('click', (event) => {
+loginForm.addEventListener('submit', (event) => {
   event.preventDefault(); // prevent the form from submitting
 
   const email = document.querySelector('#email-login').value;
@@ -17,14 +17,22 @@ loginForm.addEventListener('click', (event) => {
       'Content-Type': 'application/json'
     }
   })
+  .then(res=>res.json())
   .then(response => {
-    if (response.ok) {
+    if (response?.user) {
       // user authenticated, redirected 
       window.location.href = '/profile';
     } else {
       // if authentication failed, update the login error state and re-render the template
-      const state = { loginError: true };
-      document.querySelector('#login-card').innerHTML = loginTemplate(state);
+      // const state = { loginError: true };
+      // document.querySelector('#login-card').innerHTML = loginTemplate(state);
+       let errorText=document.querySelector('#error');
+       if(errorText){
+        errorText.innerHTML=response?.message
+       }
+       setTimeout(()=>{
+        errorText.innerHTML=''
+       },5000)
     }
   })
   .catch(error => {
@@ -59,3 +67,17 @@ regForm.addEventListener('click', (event) => {
    
   }
 });
+
+// enter key function
+loginForm.addEventListener('keypress', function(event) {
+  if (event.key === 'Enter') {
+    //loginButton.click();
+  }
+});
+
+regForm.addEventListener('keypress', function(event) {
+  if (event.key === 'Enter') {
+    regButton.click();
+  }
+});
+

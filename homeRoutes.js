@@ -33,7 +33,7 @@ router.get('/', async (req, res) => {
     }
 });
 
-router.get('/destinations', withAuth, async (req, res) => {
+router.get('/destinations', async (req, res) => {
     try {
         const destinationData = await Destination.findAll({
             include: [
@@ -58,7 +58,7 @@ router.get('/destinations', withAuth, async (req, res) => {
     }
 });
 
-router.get('/destination/:id', withAuth, async (req, res) => {
+router.get('/destination/:id', async (req, res) => {
     try {
         const destinationData = await Destination.findByPk(req.params.id, {
             include: [
@@ -80,7 +80,7 @@ router.get('/destination/:id', withAuth, async (req, res) => {
     }
 });
 
-router.get('/trips/:id', withAuth, async (req, res) => {
+router.get('/trips/:id', async (req, res) => {
     try {
         const tripData = await Trip.findByPk(req.params.id, {
             include: [

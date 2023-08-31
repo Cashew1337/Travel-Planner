@@ -15,7 +15,11 @@
     "dependencies": {
         "@types/node": "^18.16.3",
         "bcrypt": "^5.0.0",
+<<<<<<< HEAD
         "bootstrap": "^5.3.0",
+=======
+        "body-parser": "^1.20.2",
+>>>>>>> fad9a60b5f63dc2f37c84ed44a7e311460a965eb
         "connect-session-sequelize": "^7.1.6",
         "dotenv": "^8.6.0",
         "express": "^4.18.2",
