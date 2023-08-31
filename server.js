@@ -19,8 +19,8 @@ const hbs = exphbs.create({ helpers });
 
 
 const app = express();
-const upload = multer({ dest: 'uploads/' });
 const PORT = process.env.PORT || 3001;
+const upload = multer({ dest: 'uploads/' });
 
 
 const sess = {
