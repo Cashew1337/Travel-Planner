@@ -9,72 +9,31 @@
     rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <title>Day Tryppers</title>
- <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 
 <body>
 
-    <div class="container text-muted">
-        <nav class="navbar">
-          <ul>
-            <a class="btn btn-primary custom-btn" href="/">Home</a> </button> 
-            <a class="btn btn-primary custom-btn" href="/destinations">Destinations</a> 
-              </ul>
-            <ul>
-                {{#if logged_in}}
-            <a class="btn btn-primary custom-btn"href="/profile">My Profile</a></li> 
-            <a class="btn btn-primary custom-btn" href id="logout-Btn" id="logout">Logout</a> 
-            <a class="btn btn-primary custom-btn" href="/profile">Profile</a>
-                {{else}}
-                <a class="btn btn-primary custom-btn" href="/login">Login</a>
-                  
-                {{/if}}
-            </ul>
-        </nav>
-        <main>
-            {{{ body }}}
-        </main>
-    </div>
-{{!--   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/">Day Tryppers</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/destinations">Destination</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav ms-auto">
-            {{#if logged_in}}
-            <li class="nav-item">
-              <a class="nav-link" href="/profile"><i class="fa-regular fa-circle-user"></i></a>
-            </li>
-            <li class="nav-item">
-              <button id="logout-Btn" class="fa-sharp fa-solid fa-arrow-right-from-bracket"></button>
-            </li>
-            {{else}}
-            <li class="nav-item">
-              <a class="nav-link" href="/login">Login</a>
-            </li>
-            {{/if}}
-          </ul>
-        </div>
-      </div>
+  <div class="container text-muted">
+    <nav class="navbar">
+      <ul>
+        <a class="btn btn-primary custom-btn" href="/">Home</a> </button>
+        <a class="btn btn-primary custom-btn" href="/destinations">Destination</a>
+      </ul>
+      <ul>
+        {{#if logged_in}}
+        <a class="btn btn-primary custom-btn" href="/profile"></a></li>
+        <a class="btn btn-primary custom-btn" href id="logout-Btn" id="logout">Logout</a>
+        {{else}}
+        <a class="btn btn-primary custom-btn" href="/login">Login</a>
+        {{/if}}
+      </ul>
     </nav>
     <main>
       {{{ body }}}
     </main>
-  </div> --}}
+  </div>
 
   <footer class="footer">
     <p class="footer-text" >Created with Vscode, Launched with Heroku</p>
